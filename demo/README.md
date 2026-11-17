@@ -4,7 +4,7 @@ A **65-second annotated walkthrough** of the family guide, with a fixed phone fr
 
 [Watch or download the video](renders/Pocket-Crew-Playful-Phone-Demo.mp4)
 
-[![Find a charging stop in the phone demo](preview.jpg)](renders/Pocket-Crew-Playful-Phone-Demo.mp4)
+<a href="renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="preview.jpg" alt="Find a charging stop in the phone demo" width="240"></a>
 
 ## Try it
 

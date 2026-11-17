@@ -6,7 +6,7 @@ A phone-first ultramarathon companion with a route map, meet-up planning, explic
 
 **[Open the public guide](https://emily-jeff-meriden-crew.whylaura413.chatgpt.site/)** · [Development notes](docs/guide-development.md) · [Adapt it for your crew](docs/reusing-the-guide.md)
 
-[![Pocket Crew — playful phone walkthrough](demo/preview.jpg)](demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4)
+<a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="demo/preview.jpg" alt="Pocket Crew — playful phone walkthrough" width="240"></a>
 
 **[▶ Watch the 65-second demo](demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4)** · [Try or edit the interactive demo](demo/README.md)
 
