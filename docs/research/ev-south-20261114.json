@@ -1,0 +1,743 @@
+{
+  "scope": "Actual route65km through finish105.771km; public chargers within1km perpendicular corridor. Not a completeness or live availability guarantee.",
+  "researchedAt": "2026-11-14",
+  "projection": "Calculated nearest segment on host public/data/route.geojson. Offset is crow-flight to route, NOT verified walking or driving detour.",
+  "stations": [
+    {
+      "id": "ck-stony-high-street",
+      "name": "High Street charging",
+      "town": "Stony Stratford",
+      "lat": 52.058929342175354,
+      "lng": -0.8564953809509324,
+      "operator": "Connected Kerb",
+      "connectors": [
+        "Type 2"
+      ],
+      "powerText": "Up to 7.4 kW Type 2; operator lists 16 charge points",
+      "access": "24/7 confirmed by operator. Parking restrictions and charges may apply; check signage.",
+      "coordinateSource": {
+        "url": "https://locations.connectedkerb.com/gb/south-east/stony-stratford/electric-vehicle-charging-station-124-high-street-2030422700",
+        "type": "exact operator directions and Yext display coordinate"
+      },
+      "sources": [
+        {
+          "url": "https://locations.connectedkerb.com/gb/south-east/stony-stratford/electric-vehicle-charging-station-124-high-street-2030422700",
+          "publisher": "Connected Kerb",
+          "supports": "Operator station page,24/7 access and coordinates;HighStreet7.4kW and16points",
+          "ref": "turn241view0"
+        }
+      ],
+      "routeKm": 76.633,
+      "routeOffsetM": 2,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route",
+      "notes": "AC top-up, not a rapid charging stop. Connected Kerb app or configured RFID; bring Type2cable."
+    },
+    {
+      "id": "ck-stony-woodside",
+      "name": "Woodside charging",
+      "town": "Stony Stratford",
+      "lat": 52.05755755,
+      "lng": -0.84409109,
+      "operator": "Connected Kerb",
+      "connectors": [
+        "Type 2"
+      ],
+      "powerText": "Type 2 AC; 7 kW reported in current secondary directory",
+      "access": "24/7 confirmed by operator. Parking restrictions and charges may apply; check signage.",
+      "coordinateSource": {
+        "url": "https://locations.connectedkerb.com/gb/south-east/milton-keynes/electric-vehicle-charging-station-woodside-2029894552",
+        "type": "exact operator directions and Yext display coordinate"
+      },
+      "sources": [
+        {
+          "url": "https://locations.connectedkerb.com/gb/south-east/milton-keynes/electric-vehicle-charging-station-woodside-2029894552",
+          "publisher": "Connected Kerb",
+          "supports": "Operator station page,24/7 access and coordinates;HighStreet7.4kW and16points",
+          "ref": "turn241view1"
+        }
+      ],
+      "routeKm": 77.404,
+      "routeOffsetM": 447,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "notes": "AC top-up, not a rapid charging stop. Connected Kerb app or configured RFID; bring Type2cable."
+    },
+    {
+      "id": "ck-stony-mallets",
+      "name": "Mallets Close charging",
+      "town": "Stony Stratford",
+      "lat": 52.05641241,
+      "lng": -0.84206706,
+      "operator": "Connected Kerb",
+      "connectors": [
+        "Type 2"
+      ],
+      "powerText": "Type 2 AC; 7 kW reported in current secondary directory",
+      "access": "24/7 confirmed by operator. Parking restrictions and charges may apply; check signage.",
+      "coordinateSource": {
+        "url": "https://locations.connectedkerb.com/gb/south-east/milton-keynes/electric-vehicle-charging-station-malletts-close-2029894469",
+        "type": "exact operator directions and Yext display coordinate"
+      },
+      "sources": [
+        {
+          "url": "https://locations.connectedkerb.com/gb/south-east/milton-keynes/electric-vehicle-charging-station-malletts-close-2029894469",
+          "publisher": "Connected Kerb",
+          "supports": "Operator station page,24/7 access and coordinates;HighStreet7.4kW and16points",
+          "ref": "turn241view2"
+        }
+      ],
+      "routeKm": 77.6,
+      "routeOffsetM": 427,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "notes": "AC top-up, not a rapid charging stop. Connected Kerb app or configured RFID; bring Type2cable."
+    },
+    {
+      "id": "bp-8473",
+      "name": "Whitehouse Health Centre",
+      "town": "Milton Keynes",
+      "lat": 52.034229,
+      "lng": -0.81687,
+      "operator": "bp pulse",
+      "connectors": [
+        "Type 2"
+      ],
+      "powerText": "Type 2 AC; exact power unverified",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/brahaman-way",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "8473"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/brahaman-way",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 80.484,
+      "routeOffsetM": 494,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "type_2",
+        "upto49kw"
+      ],
+      "address": "Brahaman Way",
+      "postcode": "MK8 1EQ"
+    },
+    {
+      "id": "bp-2786",
+      "name": "The High Street",
+      "town": "Great Holm",
+      "lat": 52.038128,
+      "lng": -0.801381,
+      "operator": "bp pulse",
+      "connectors": [
+        "Type 2",
+        "CHAdeMO",
+        "CCS"
+      ],
+      "powerText": "50\u2013149 kW DC / AC options (operator band)",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/2-the-high-street",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "2786"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/2-the-high-street",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 81.123,
+      "routeOffsetM": 467,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "shopping",
+        "grocery_convenience",
+        "type_2",
+        "chademo",
+        "type_2_combo",
+        "from50kwto149kw",
+        "upto49kw"
+      ],
+      "address": "2 The High Street",
+      "postcode": "MK8 8HL"
+    },
+    {
+      "id": "bp-498",
+      "name": "Bradwell Road",
+      "town": "Loughton",
+      "lat": 52.028316,
+      "lng": -0.785041,
+      "operator": "bp pulse",
+      "connectors": [
+        "Type 2",
+        "CHAdeMO",
+        "CCS"
+      ],
+      "powerText": "50\u2013149 kW DC / AC options (operator band)",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/2-bradwell-road",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "498"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/2-bradwell-road",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 82.678,
+      "routeOffsetM": 240,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "type_2",
+        "chademo",
+        "type_2_combo",
+        "from50kwto149kw",
+        "upto49kw"
+      ],
+      "address": "2 Bradwell Road",
+      "postcode": "MK5 8AJ"
+    },
+    {
+      "id": "bp-1143",
+      "name": "Furzton Lake Car Park",
+      "town": "Furzton",
+      "lat": 52.01593,
+      "lng": -0.769229,
+      "operator": "bp pulse",
+      "connectors": [
+        "CHAdeMO",
+        "Type 2",
+        "CCS"
+      ],
+      "powerText": "50\u2013149 kW DC / AC options (operator band)",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/shirwell-crescent-MK41LU",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "1143"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/shirwell-crescent-MK41LU",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 84.288,
+      "routeOffsetM": 347,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "chademo",
+        "type_2",
+        "type_2_combo",
+        "from50kwto149kw",
+        "upto49kw"
+      ],
+      "address": "Shirwell Crescent MK41LU",
+      "postcode": "MK4 1LU"
+    },
+    {
+      "id": "allego-stadium-mk",
+      "name": "Stadium MK EV hub",
+      "town": "Bletchley",
+      "lat": 52.007699,
+      "lng": -0.734299,
+      "operator": "Allego",
+      "connectors": [
+        "CCS"
+      ],
+      "powerText": "Up to 350 kW reported",
+      "access": "Venue explicitly welcomes visitors, residents and passing traffic; parking/event conditions apply.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/266386",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.stadiummk.com/getting-here",
+          "publisher": "Stadium MK",
+          "supports": "Public EV hub on west side beside Fitness First; parking conditions",
+          "ref": "turn228search3"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/266386",
+          "publisher": "Open Charge Map",
+          "supports": "Coordinates and six 350 kW CCS listings",
+          "ref": "turn229view1"
+        }
+      ],
+      "notes": "Good supporter backup; event parking may alter access.",
+      "routeKm": 86.931,
+      "routeOffsetM": 154,
+      "meetupCandidate": false,
+      "classification": "on-route/near-route"
+    },
+    {
+      "id": "gridserve-ikea-mk",
+      "name": "IKEA Milton Keynes",
+      "town": "Bletchley",
+      "lat": 52.005565,
+      "lng": -0.72965,
+      "operator": "GRIDSERVE",
+      "connectors": [
+        "CCS",
+        "CHAdeMO",
+        "Type 2"
+      ],
+      "powerText": "50 kW DC / 22 kW AC reported",
+      "access": "Public store car park; charger-access hours not independently verified; store hours separate.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/258979",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.ikea.com/gb/en/customer-service/prepare-for-your-visit-pub1e6151b1/",
+          "publisher": "IKEA",
+          "supports": "GRIDSERVE charging at IKEA stores, excluding three named sites",
+          "ref": "turn234view2"
+        },
+        {
+          "url": "https://www.ikea.com/gb/en/stores/milton-keynes/",
+          "publisher": "IKEA",
+          "supports": "Venue address and store hours",
+          "ref": "turn230view1"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/258979",
+          "publisher": "Open Charge Map",
+          "supports": "Exact charger coordinates and inventory",
+          "ref": "turn229view0"
+        }
+      ],
+      "notes": "Vehicle entrance is via Goslington off Bletcham Way. Route offset is not a walking/driving detour measurement.",
+      "routeKm": 87.366,
+      "routeOffsetM": 165,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route"
+    },
+    {
+      "id": "bp-7606",
+      "name": "Bletchley Hub",
+      "town": "Bletchley",
+      "lat": 51.99585,
+      "lng": -0.73316,
+      "operator": "bp pulse",
+      "connectors": [
+        "CCS",
+        "CHAdeMO"
+      ],
+      "powerText": "CCS / CHAdeMO; exact power unverified",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/albert-street",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "7606"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/albert-street",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 87.55,
+      "routeOffsetM": 896,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "cafe",
+        "atm",
+        "disabled_toilet",
+        "grocery_convenience",
+        "type_2_combo",
+        "chademo",
+        "toilet"
+      ],
+      "address": "Albert Street",
+      "postcode": "MK2 2UG"
+    },
+    {
+      "id": "podpoint-tesco-bletchley",
+      "name": "Tesco Extra Bletchley",
+      "town": "Bletchley",
+      "lat": 52.001045394704,
+      "lng": -0.725688951220718,
+      "operator": "Pod Point",
+      "connectors": [
+        "CCS",
+        "CHAdeMO",
+        "Type 2"
+      ],
+      "powerText": "50 kW DC, 22/7 kW AC reported",
+      "access": "Customer car park; check parking and charging access signs. Store hours do not establish charger hours.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/175149",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.tesco.com/store-locator/milton-keynes/tesco-stores-ltd-watling-street",
+          "publisher": "Tesco",
+          "supports": "Venue and EV charging amenity"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/175149",
+          "publisher": "Open Charge Map",
+          "supports": "Coordinates, connector inventory",
+          "ref": "turn227view3"
+        },
+        {
+          "url": "https://ampmap.net/charger/pod-point-tesco-extra-milton-keynes-bletchley-2-uk",
+          "publisher": "AmpMap",
+          "supports": "Current charger listing"
+        }
+      ],
+      "notes": "Close to existing toilet facility and Point 13. Customer/parking conditions apply.",
+      "routeKm": 87.888,
+      "routeOffsetM": 132,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route"
+    },
+    {
+      "id": "bp-8481",
+      "name": "Halifax Bank",
+      "town": "Bletchley",
+      "lat": 51.99455836,
+      "lng": -0.7317136,
+      "operator": "bp pulse",
+      "connectors": [
+        "Type 2"
+      ],
+      "powerText": "Type 2 AC; exact power unverified",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/43-47-queensway",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "8481"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/43-47-queensway",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 87.983,
+      "routeOffsetM": 961,
+      "meetupCandidate": false,
+      "classification": "supporter detour",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "type_2",
+        "upto49kw"
+      ],
+      "address": "43 47 Queensway",
+      "postcode": "MK2 2ZW"
+    },
+    {
+      "id": "osprey-starbucks-watling",
+      "name": "Starbucks Watling Street",
+      "town": "Bletchley",
+      "lat": 52.001088,
+      "lng": -0.723581,
+      "operator": "Osprey",
+      "connectors": [
+        "CCS"
+      ],
+      "powerText": "150 kW CCS reported; mixed older inventory",
+      "access": "Public charging; charging access hours not independently verified. Caf\u00e9 hours separate.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/296090",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.ospreycharging.co.uk/post/power-up-and-pick-the-perfect-pumpkin",
+          "publisher": "Osprey",
+          "supports": "Operator names Starbucks Watling St as its charging location",
+          "ref": "turn213search3"
+        },
+        {
+          "url": "https://ampmap.net/charger/osprey-charging-starbucks-watling-street-uk",
+          "publisher": "AmpMap",
+          "supports": "Current charger listing"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/296090",
+          "publisher": "Open Charge Map",
+          "supports": "Exact charger coordinates and hardware",
+          "ref": "turn227view2"
+        }
+      ],
+      "notes": "Existing Point 13 vicinity; car-park meeting option. Do not promise a free connector or claim caf\u00e9 is open 24h.",
+      "routeKm": 88.014,
+      "routeOffsetM": 47,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route"
+    },
+    {
+      "id": "bp-9532",
+      "name": "Rowlands Close charging",
+      "town": "Bletchley",
+      "lat": 51.99656318,
+      "lng": -0.7180635,
+      "operator": "bp pulse",
+      "connectors": [
+        "Type 2"
+      ],
+      "powerText": "Type 2 AC; exact power unverified",
+      "access": "24/7 listed by operator; parking/venue restrictions may still apply.",
+      "coordinateSource": {
+        "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/rowlands-close",
+        "type": "exact operator locator coordinate",
+        "operatorSiteId": "9532"
+      },
+      "sources": [
+        {
+          "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/rowlands-close",
+          "publisher": "bp pulse",
+          "supports": "Operator public locator: exact pin, access hours, connectors/power categories"
+        },
+        {
+          "url": "https://uberall.com/api/mf-lp-adapter/llp/nearby.json",
+          "publisher": "bp pulse public website locator backend",
+          "supports": "Public frontend locator data, queried bounding areas around actual route"
+        }
+      ],
+      "notes": "Retrieved from public BP locator on 2026-11-14. No current bay availability or charging speed promised.",
+      "routeKm": 88.607,
+      "routeOffsetM": 266,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route",
+      "operatorHours": "1,0000,2400;2,0000,2400;3,0000,2400;4,0000,2400;5,0000,2400;6,0000,2400;7,0000,2400",
+      "operatorTags": [
+        "type_2",
+        "upto49kw"
+      ],
+      "address": "Rowlands Close",
+      "postcode": "MK2 2NL"
+    },
+    {
+      "id": "gridserve-dobbies-mk",
+      "name": "Dobbies Milton Keynes",
+      "town": "Little Brickhill",
+      "lat": 51.996469,
+      "lng": -0.709562,
+      "operator": "GRIDSERVE",
+      "connectors": [
+        "CCS",
+        "CHAdeMO"
+      ],
+      "powerText": "Up to 180 kW CCS; 80 kW CHAdeMO reported",
+      "access": "24/7 charging confirmed by GRIDSERVE; contactless. Garden-centre hours separate.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/280794",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.gridserve.com/two-new-electric-retail-hubs-open-at-dobbies-locations/",
+          "publisher": "GRIDSERVE",
+          "supports": "Milton Keynes A5 hub, six bays, CCS/CHAdeMO, 24/7 access, contactless",
+          "ref": "turn230view0"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/280794",
+          "publisher": "Open Charge Map",
+          "supports": "Exact coordinates and connector power",
+          "ref": "turn229view2"
+        }
+      ],
+      "notes": "Useful before Little Brickhill. Use site entrance on Belvedere Lane; do not direct pedestrians across A5.",
+      "routeKm": 89.108,
+      "routeOffsetM": 40,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route"
+    },
+    {
+      "id": "aw-checkley-wood",
+      "name": "Checkley Wood charging hub",
+      "town": "Checkley Wood",
+      "lat": 51.95668,
+      "lng": -0.63051,
+      "operator": "AW Energy / Fuuse",
+      "connectors": [
+        "CCS"
+      ],
+      "powerText": "150 kW CCS; 14 charging devices in current listing",
+      "access": "Operator advertises 24/7 access. Coffee venue hours separate.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/297881",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.awgroup.org.uk/awenergy-goes-the-extra-mile/",
+          "publisher": "AW Group",
+          "supports": "Operator confirms Checkley Wood hub and 14 ultra-rapid bays, caf\u00e9 amenity",
+          "ref": "turn204search1"
+        },
+        {
+          "url": "https://www.awgroup.org.uk/aw-energy/",
+          "publisher": "AW Group",
+          "supports": "Search-indexed operator 24/7 access statement; page revised since indexed",
+          "ref": "turn236search1"
+        },
+        {
+          "url": "https://www.zapmap.com/charge-points/leighton-buzzard/5LGSBSR",
+          "publisher": "Zapmap",
+          "supports": "Current Fuuse listing, Energy Court Watling St LU7 9LG, 14 devices, CCS150kW",
+          "ref": "turn236search0"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/297881",
+          "publisher": "Open Charge Map",
+          "supports": "Coordinates"
+        }
+      ],
+      "notes": "Existing Point 15 / Starbucks Checkley Wood vicinity. Do not copy old 39p launch tariff. Use access from correct side of A5.",
+      "routeKm": 96.24,
+      "routeOffsetM": 24,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route"
+    },
+    {
+      "id": "osprey-white-lion",
+      "name": "White Lion Chalk Hill",
+      "town": "Chalk Hill",
+      "lat": 51.90197,
+      "lng": -0.546048,
+      "operator": "Osprey",
+      "connectors": [
+        "CCS"
+      ],
+      "powerText": "2 \u00d7 60 kW CCS in current operator-fed listing",
+      "access": "24/7 according to current Osprey-fed listing on AmpMap (synced 12 Nov 2026). Pub hours separate.",
+      "coordinateSource": {
+        "url": "https://openchargemap.org/poi/details/289979",
+        "type": "public charger directory pin"
+      },
+      "sources": [
+        {
+          "url": "https://www.thewhiteliondunstable.com/",
+          "publisher": "White Lion",
+          "supports": "Venue address and pub opening hours, not charger hours",
+          "ref": "turn211view1"
+        },
+        {
+          "url": "https://ampmap.net/charger/osprey-charging-white-lion-uk",
+          "publisher": "AmpMap",
+          "supports": "Operator-fed current listing: 2CCS60kW,24/7,car-park access",
+          "ref": "turn238view2"
+        },
+        {
+          "url": "https://openchargemap.org/poi/details/289979",
+          "publisher": "Open Charge Map",
+          "supports": "Exact charger coordinates and older hardware record",
+          "ref": "turn227view1"
+        }
+      ],
+      "notes": "Existing Point17 location; current operator-fed access says no parking restriction. Always obey posted site conditions.",
+      "routeKm": 104.687,
+      "routeOffsetM": 46,
+      "meetupCandidate": true,
+      "classification": "on-route/near-route"
+    }
+  ],
+  "excludedOrPending": [
+    {
+      "name": "Bletchley Park Trust Ltd",
+      "reason": "Museum visitor parking / public access conditions unresolved; not confidently usable as general roadside support charger.",
+      "url": "https://uk-chargers.bppulse.com/en/uk/milton-keynes/milton-keynes/sherwood-drive-MK36EB",
+      "routeKm": 87.276,
+      "routeOffsetM": 915
+    },
+    {
+      "name": "Cofferidge Close / Market Square / Mill Lane / Horn Lane, Stony Stratford",
+      "reason": "Current secondary listings exist but not returned by present BP public locator. Could be network changes. Exact live operator/pin/access not sufficiently verified; no fabricated pin. Cofferidge centre is52.0554016,-0.8529456 but not charger-specific.",
+      "sources": [
+        "https://getaroundmk.org.uk/news/car-club",
+        "https://ampmap.net/charger/bp-pulse-market-sqaure-car-park-uk",
+        "https://www.zapmap.com/charge-points/milton-keynes/2T2UP3D"
+      ]
+    },
+    {
+      "name": "Shenley Pavilions",
+      "reason": "Exact pin52.01597,-0.79483 is farther than1km corridor after route projection; business visitor conditions.",
+      "url": "https://uk-chargers.bppulse.com/en/uk/buckinghamshire/milton-keynes/chalkdell-drive",
+      "routeKm": 82.838,
+      "routeOffsetM": 1275
+    },
+    {
+      "name": "Dealership / private workplace chargers",
+      "reason": "Private Hyundai and other workplace locations not added to public supporter options."
+    },
+    {
+      "name": "Central Milton Keynes, Houghton Regis, central Dunstable and Leighton Buzzard chargers",
+      "reason": "Outside actual route corridor or beyond route finish; generic town search would add substantial detours."
+    }
+  ],
+  "coverageNote": "Known nearby public options included where exact pin exists; Stony Stratford Connected Kerb stations verified directly with operator. Older BP Stony Stratford carpark listings remain unresolved. No exhaustive all-operator/live-availability guarantee.",
+  "implementationNotes": [
+    "Use supporter layer and optional meeting choices only. Show24/7 only where operator-confirmed; caf\u00e9 opening not charger opening.",
+    "No live charger occupancy feed; operator map links for availability.",
+    "Optional meeting candidates require same-side safe public approach; routeOffset alone does not establish safe road crossing.",
+    "Dobbies and Checkley existing route vicinity are strongest forward rapid stop options; White Lion near finish; no default reset of current shared meeting selection."
+  ]
+}

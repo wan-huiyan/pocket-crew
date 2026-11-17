@@ -1,0 +1,1208 @@
+{
+  "checkedOn": "2026-11-14",
+  "scope": "Verified and corroborated public EV locations around the actual retained route, northern section Coventry–Daventry–Weedon–Towcester. Focus on remaining route beyond approximately 35 km; existing passed MFG retained.",
+  "coverageNote": "Broad current search of operator, council and retail records, not a guarantee of every charger or current availability. Private chargers excluded. Some near-route candidates have approximate car-park/station pins and need signed-entrance checks.",
+  "projectionNote": "routeKm and routeOffsetM computed against public/data/route.geojson. Offset is straight-line, never a walking detour. Meeting eligibility uses <=300 m proximity plus access judgement, not a tested pedestrian route.",
+  "integrationNotes": [
+    "Use existingFacilityId to merge rather than duplicate mixed toilet/parking locations.",
+    "Keep EV charging hours separate from toilet hours; do not overwrite existing opening/access with the charging schedule.",
+    "Bowen Square is the preferred next EV choice, not an instruction to overwrite the currently agreed meetup.",
+    "Stations beyond 300 m or with unconfirmed operation are supporter backups/list-only rather than default runner meeting choices.",
+    "Do not copy prices or snapshot availability as live truth.",
+    "Do not infer toilets from a charger being open all night."
+  ],
+  "stations": [
+    {
+      "id": "mfg-coventry",
+      "name": "MFG EV Power · Coventry",
+      "town": "Coventry",
+      "lat": 52.398503,
+      "lng": -1.440933,
+      "routeKm": 17.3,
+      "routeOffsetM": 17,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "existingFacilityId": "mfg-coventry",
+      "operator": "MFG EV Power",
+      "address": "Willenhall Lane, Coventry CV3 2EA",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "CCS"
+      ],
+      "maxPowerKw": 150,
+      "coordinateNote": "Official MFG station pin for the first family meet-up, charging and listed toilets; not the exact toilet entrance.",
+      "access": "CCS up to 150 kW; the station also lists toilets. Check toilet access on arrival and use the operator for live charger availability. Follow forecourt signs.",
+      "meetingNote": "Existing first meet-up. Preserve as a past stop; do not make it the next EV option.",
+      "sources": [
+        {
+          "label": "MFG station",
+          "url": "https://www.motorfuelgroup.com/locations/rugby-road-fs674/"
+        },
+        {
+          "label": "MFG open data",
+          "url": "https://opendata.motorfuelgroup.net/locations"
+        }
+      ]
+    },
+    {
+      "id": "bp-millennium-way-daventry",
+      "name": "bp pulse · Millennium Way",
+      "town": "Daventry",
+      "lat": 52.25856078,
+      "lng": -1.16385396,
+      "routeKm": 43.99,
+      "routeOffsetM": 76,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "bp pulse",
+      "address": "Millennium Way, Daventry NN11 4GH",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [],
+      "maxPowerKw": null,
+      "coordinateNote": "Third-party station coordinates in My Local Services JSON-LD; official bp pulse page independently confirms this station/address, not the exact bay.",
+      "access": "Official operator lists all-day access. Connector/power not confirmed from the primary station page; check bp pulse before relying on it.",
+      "meetingNote": "Near-route candidate, but approximate pin: follow signed charging bays and verify pedestrian approach.",
+      "sources": [
+        {
+          "label": "Official bp pulse station and hours",
+          "url": "https://uk-chargers.bppulse.com/en/uk/northamptonshire/daventry/millennium-way",
+          "ref": "turn202search9"
+        },
+        {
+          "label": "Station coordinate metadata",
+          "url": "https://www.mylocalservices.co.uk/bp+pulse+Charging+Station-Daventry-3301498.html",
+          "ref": "turn224view2"
+        }
+      ]
+    },
+    {
+      "id": "bp-lodge-road-daventry",
+      "name": "bp pulse · Lodge Road",
+      "town": "Daventry",
+      "lat": 52.2600611386921,
+      "lng": -1.15888595581055,
+      "routeKm": 43.99,
+      "routeOffsetM": 453,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": false,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "bp pulse",
+      "address": "Lodge Road Car Park, Daventry NN11 4FP",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "Type 2, 7 kW (directory; check operator)"
+      ],
+      "maxPowerKw": 7,
+      "coordinateNote": "Approximate charging location from Open Charge Map. Duplicate historical listings within roughly 60 m have been consolidated.",
+      "access": "Council car park and operator both list 24-hour access; parking restrictions may differ between levels. Check signed EV bays and bp pulse payment. Do not claim free electricity based on older council copy.",
+      "meetingNote": "About 450 m straight-line off route: supporter charging backup, not an on-route runner meeting option.",
+      "sources": [
+        {
+          "label": "Official bp pulse station",
+          "url": "https://uk-chargers.bppulse.com/en/uk/northamptonshire/daventry/lodge-road",
+          "ref": "turn202search8"
+        },
+        {
+          "label": "Council charging locations",
+          "url": "https://www.westnorthants.gov.uk/electric-vehicle-charging/find-electric-vehicle-charging-point",
+          "ref": "turn201view0"
+        },
+        {
+          "label": "Council parking",
+          "url": "https://www.westnorthants.gov.uk/car-parks-west-northamptonshire/council-car-parks-daventry",
+          "ref": "turn212view1"
+        },
+        {
+          "label": "Charging pin",
+          "url": "https://openchargemap.io/poi/details/44899",
+          "ref": "turn209view3"
+        }
+      ]
+    },
+    {
+      "id": "connected-kerb-newlands-daventry",
+      "name": "Connected Kerb · Newlands",
+      "town": "Daventry",
+      "lat": 52.25676312712746,
+      "lng": -1.1644874453689602,
+      "routeKm": 44.14,
+      "routeOffsetM": 62,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "Connected Kerb",
+      "address": "Newlands Car Park, Sheaf Street, Daventry NN11 4AB",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "Type 2, 7 kW (directory corroboration; verify in app)"
+      ],
+      "maxPowerKw": 7,
+      "deviceCount": 4,
+      "coordinateNote": "Exact destination coordinates in the official Connected Kerb location page Directions link.",
+      "access": "Public council car park; 3-hour short-stay limit and 4-hour no-return restriction are listed. Check bay signs and Connected Kerb payment/app. No independently confirmed toilet access.",
+      "meetingNote": "Near-route town-centre charging option; use the signed car-park entrance.",
+      "sources": [
+        {
+          "label": "Operator station page and Directions pin",
+          "url": "https://locations.connectedkerb.com/gb/east-midlands/daventry/electric-vehicle-charging-station-newlands-2031173908",
+          "ref": "turn212view0"
+        },
+        {
+          "label": "Council hours, EV bays and parking restrictions",
+          "url": "https://www.westnorthants.gov.uk/car-parks-west-northamptonshire/council-car-parks-daventry",
+          "ref": "turn212view1"
+        },
+        {
+          "label": "Connector corroboration",
+          "url": "https://openchargemap.io/poi/details/255069",
+          "ref": "turn209view2"
+        }
+      ]
+    },
+    {
+      "id": "osprey-daventry",
+      "name": "Osprey · Bowen Square",
+      "town": "Daventry",
+      "lat": 52.256684,
+      "lng": -1.161572,
+      "routeKm": 44.29,
+      "routeOffsetM": 98,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "existingFacilityId": "osprey-daventry",
+      "operator": "Osprey",
+      "address": "Bowen Square, Daventry NN11 4DR",
+      "preferredNextEV": true,
+      "chargingHours": "Car-park access 05:00–23:45 daily",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "venue-access",
+        "weekly": {
+          "0": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ],
+          "1": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ],
+          "2": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ],
+          "3": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ],
+          "4": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ],
+          "5": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ],
+          "6": [
+            [
+              "05:00",
+              "23:45"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "CCS up to 75 kW",
+        "CHAdeMO up to 50 kW"
+      ],
+      "maxPowerKw": 75,
+      "deviceCount": 3,
+      "coordinateNote": "Approximate charging-bay pin from Open Charge Map; venue address corroborated by the centre owner. Use the signed car-park entrance.",
+      "access": "Centre owner limits car-park access to 05:00–23:45 and lists 2 hours free parking. These access hours override 24/7 claims in charging directories. Check bay signs, payment and Osprey availability.",
+      "meetingNote": "Preferred next EV meet-up option near Costa and Waitrose. Selectable option only; do not overwrite the agreed meeting automatically.",
+      "sources": [
+        {
+          "label": "Bowen Square owner: access and EV charging",
+          "url": "https://mbowensquare.co.uk/",
+          "ref": "turn201view1"
+        },
+        {
+          "label": "Charging-bay position",
+          "url": "https://openchargemap.io/poi/details/259943",
+          "ref": "turn202search1"
+        },
+        {
+          "label": "Connector listing",
+          "url": "https://www.zapmap.com/charge-points/daventry/CHXXB1P",
+          "ref": "turn201view2"
+        },
+        {
+          "label": "Official Osprey locator",
+          "url": "https://www.ospreycharging.co.uk/find-our-ev-charging-stations"
+        }
+      ]
+    },
+    {
+      "id": "tesco-daventry-toilet",
+      "name": "Pod · Tesco Daventry",
+      "town": "Daventry",
+      "lat": 52.257313199447715,
+      "lng": -1.1592740533320693,
+      "routeKm": 44.29,
+      "routeOffsetM": 263,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "existingFacilityId": "tesco-daventry-toilet",
+      "operator": "Pod",
+      "address": "15 New Street, Daventry NN11 4BT",
+      "chargingHours": "Mon–Sat 06:00–23:59; Sun 10:00–16:00",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "10:00",
+              "16:00"
+            ]
+          ],
+          "1": [
+            [
+              "06:00",
+              "23:59"
+            ]
+          ],
+          "2": [
+            [
+              "06:00",
+              "23:59"
+            ]
+          ],
+          "3": [
+            [
+              "06:00",
+              "23:59"
+            ]
+          ],
+          "4": [
+            [
+              "06:00",
+              "23:59"
+            ]
+          ],
+          "5": [
+            [
+              "06:00",
+              "23:59"
+            ]
+          ],
+          "6": [
+            [
+              "06:00",
+              "23:59"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "Type 2, 7 kW (directory; check Pod)"
+      ],
+      "maxPowerKw": 7,
+      "chargerBayCoordinate": {
+        "lat": 52.256785,
+        "lng": -1.159434
+      },
+      "coordinateNote": "Retain the existing exact Tesco store coordinates to avoid duplicate facilities; approximate charger-bay pin from Open Charge Map is provided separately.",
+      "access": "Tesco publishes an explicit EV service timetable. Preserve the existing toilet timetable separately; store/charging/toilet hours are not interchangeable. Check Pod and parking signs.",
+      "meetingNote": "Near-route supermarket car-park option, selectable subject to access hours.",
+      "sources": [
+        {
+          "label": "Official Tesco EV service hours and store pin",
+          "url": "https://www.tesco.com/store-locator/daventry/15-new-st",
+          "ref": "turn231view0"
+        },
+        {
+          "label": "Pod charging app/guest access",
+          "url": "https://go.podenergy.com/",
+          "ref": "turn233view1"
+        },
+        {
+          "label": "Bay coordinate and connectors",
+          "url": "https://openchargemap.io/poi/details/193640",
+          "ref": "turn207view1"
+        }
+      ]
+    },
+    {
+      "id": "instavolt-daventry",
+      "name": "InstaVolt · McDonald’s Vicar Lane",
+      "town": "Daventry",
+      "lat": 52.2585077405669,
+      "lng": -1.15621455614382,
+      "routeKm": 44.29,
+      "routeOffsetM": 510,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": false,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "InstaVolt",
+      "address": "McDonald’s, Vicar Lane / South Way, Daventry NN11 4GD",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "CCS up to 120 kW",
+        "CHAdeMO up to 60 kW"
+      ],
+      "maxPowerKw": 120,
+      "deviceCount": 2,
+      "coordinateNote": "Approximate charging-bay location from Open Charge Map; official InstaVolt station page corroborates address, connectors and access.",
+      "access": "Public contactless rapid charging; check operator for live availability. The operator lists venue toilets, but charger hours do not establish toilet hours.",
+      "meetingNote": "About 510 m straight-line off the course: useful rapid-charge backup for supporters, not a default runner meeting option.",
+      "sources": [
+        {
+          "label": "Official InstaVolt station",
+          "url": "https://instavolt.co.uk/location/electric-vehicle-charging-station-daventry-000283/",
+          "ref": "turn207view0"
+        },
+        {
+          "label": "Bay coordinate",
+          "url": "https://openchargemap.io/poi/details/235317",
+          "ref": "turn209view1"
+        }
+      ]
+    },
+    {
+      "id": "osprey-heart-of-england-weedon",
+      "name": "Osprey · Heart of England",
+      "town": "Weedon Bec",
+      "lat": 52.234498,
+      "lng": -1.078579,
+      "routeKm": 50.74,
+      "routeOffsetM": 208,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "Osprey",
+      "address": "Heart of England, High Street, Weedon Bec NN7 4QD",
+      "chargingHours": "Charging listed 24 hours; pub has separate hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator-fed-directory",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "CCS up to 75 kW",
+        "CHAdeMO up to 50 kW"
+      ],
+      "maxPowerKw": 75,
+      "deviceCount": 2,
+      "coordinateNote": "Charging-bay destination coordinate from operator-fed AmpMap navigation. The official pub JSON-LD pin is roughly 100 m farther south and identifies the venue, not the bays.",
+      "access": "Public Osprey charging confirmed by the parish council and pub; contactless supported. Charging listed all day in the operator-fed directory. Pub hours/access must be checked separately; do not infer 24-hour toilets.",
+      "meetingNote": "Short detour from the route. Use the signed High Street vehicle/pedestrian entrance, not a straight line through adjacent land.",
+      "sources": [
+        {
+          "label": "Parish council announcement quoting Osprey",
+          "url": "https://www.weedonbec-pc.gov.uk/news/2023/04/new-rapid-ev-charging-site-opened-at-heart-of-england-pub-in-weedon-bec-by-osprey-charging-network-supports-critical-public-charging-infrastructure",
+          "ref": "turn212view2"
+        },
+        {
+          "label": "Official venue: EV charging, parking and pub hours",
+          "url": "https://www.heartofenglandpub.co.uk/",
+          "ref": "turn231view1"
+        },
+        {
+          "label": "Operator-fed bay coordinate, charging hours and connectors",
+          "url": "https://ampmap.net/charger/osprey-charging-heart-of-england-uk",
+          "ref": "turn224view1"
+        }
+      ]
+    },
+    {
+      "id": "shell-towcester-toilet",
+      "name": "Shell Recharge · Co-op Towcester",
+      "town": "Towcester",
+      "lat": 52.13884,
+      "lng": -0.996542,
+      "routeKm": 63.38,
+      "routeOffsetM": 31,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "existingFacilityId": "shell-towcester-toilet",
+      "operator": "Shell Recharge",
+      "address": "Watling Street, Towcester NN12 6HN",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "CCS",
+        "CHAdeMO"
+      ],
+      "maxPowerKw": 175,
+      "deviceCount": 2,
+      "coordinateNote": "Exact official station JSON-LD coordinates; charging bay may be a few metres from this station pin.",
+      "access": "Shell explicitly lists two EV charge points, maximum 175 kW, and all-day EV charging access. Preserve the existing toilet access information separately.",
+      "meetingNote": "Very close to route; suitable optional charging meet-up via the signed forecourt entrance.",
+      "sources": [
+        {
+          "label": "Official Shell station: EV connectors, power, hours and coordinates",
+          "url": "https://find.shell.com/gb/fuel/12038619-shell-co-op-towcester",
+          "ref": "turn212view3"
+        }
+      ]
+    },
+    {
+      "id": "tesco-towcester",
+      "name": "Pod · Tesco Towcester",
+      "town": "Towcester",
+      "lat": 52.138621475779765,
+      "lng": -0.9946204196330655,
+      "routeKm": 63.46,
+      "routeOffsetM": 77,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "existingFacilityId": "tesco-towcester",
+      "operator": "Pod",
+      "address": "Old Tiffield Road, Towcester NN12 6PF",
+      "chargingHours": "Mon–Sat 06:00–23:00; Sun 10:00–16:00",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "10:00",
+              "16:00"
+            ]
+          ],
+          "1": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ],
+          "2": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ],
+          "3": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ],
+          "4": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ],
+          "5": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ],
+          "6": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "Type 2, 7 kW (directory; check Pod)"
+      ],
+      "maxPowerKw": 7,
+      "coordinateNote": "Store coordinates published in Tesco’s own page; entrance and charging bays may differ.",
+      "access": "Tesco publishes EV-specific hours matching the schedule here. Retain the existing toilet opening/access independently, and check signed parking limits and Pod availability.",
+      "meetingNote": "Near-route supermarket car park; selectable during charging-access hours.",
+      "sources": [
+        {
+          "label": "Official Tesco EV service hours and coordinates",
+          "url": "https://www.tesco.com/store-locator/towcester/old-tiffield-rd",
+          "ref": "turn233view0"
+        },
+        {
+          "label": "Pod live charging",
+          "url": "https://go.podenergy.com/"
+        },
+        {
+          "label": "Connector corroboration",
+          "url": "https://www.zapmap.com/charge-points/towcester/DVG53OC",
+          "ref": "turn200search30"
+        }
+      ]
+    },
+    {
+      "id": "tove-short-stay",
+      "name": "Tove Short Stay",
+      "town": "Towcester",
+      "lat": 52.13431,
+      "lng": -0.99029,
+      "routeKm": 64.03,
+      "routeOffsetM": 64,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "existingFacilityId": "tove-short-stay",
+      "operator": null,
+      "address": "Northampton Road, Towcester NN12 6LD",
+      "chargingHours": "Car park listed 24 hours; confirm charging operation",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "venue-access",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [],
+      "maxPowerKw": null,
+      "coordinateNote": "Approximate car-park centre from OpenStreetMap via Mapcarta; not an exact charging-bay pin.",
+      "access": "Council lists two EV bays and all-day car-park access; connector, power and operator operation not independently confirmed. Weekday short-stay/no-return limits apply; check signs.",
+      "meetingNote": "Very close to route and already a car-park option; do not promise an available working charger.",
+      "sources": [
+        {
+          "label": "Council car-park and EV details",
+          "url": "https://www.westnorthants.gov.uk/car-parks-west-northamptonshire/council-car-parks-towcester"
+        },
+        {
+          "label": "Car-park map position",
+          "url": "https://mapcarta.com/W456212558"
+        }
+      ]
+    },
+    {
+      "id": "bp-sponne-arcade-towcester",
+      "name": "bp pulse · Sponne Arcade",
+      "town": "Towcester",
+      "lat": 52.131573,
+      "lng": -0.990807,
+      "routeKm": 64.26,
+      "routeOffsetM": 154,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": true,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "bp pulse",
+      "address": "Sponne Arcade Car Park, Richmond Road, Towcester NN12 6EX",
+      "chargingHours": "24 hours",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "operator",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "Type 2, 7 kW"
+      ],
+      "maxPowerKw": 7,
+      "socketCount": 8,
+      "coordinateNote": "Destination coordinate from the operator-fed AmpMap record; official bp pulse station and council corroborate car park/address.",
+      "access": "Council lists eight EV bays and all-day car-park access. Operator-fed report showed several sockets out of order when checked; use bp pulse for current working availability and obey parking limits.",
+      "meetingNote": "Near-route car-park candidate but check working sockets before choosing this as a charging-dependent meet-up.",
+      "availabilityCaution": "Operator-fed snapshot showed 6 of 8 sockets unavailable/out of order; this is not a live status promise.",
+      "sources": [
+        {
+          "label": "Official bp pulse Sponne Arcade station",
+          "url": "https://uk-chargers.bppulse.com/en/uk/northamptonshire/towcester/richmond-road",
+          "ref": "turn201view3"
+        },
+        {
+          "label": "Council EV bays and hours",
+          "url": "https://www.westnorthants.gov.uk/car-parks-west-northamptonshire/council-car-parks-towcester",
+          "ref": "turn231view2"
+        },
+        {
+          "label": "Operator-fed pin and connector record",
+          "url": "https://ampmap.net/charger/bp-pulse-sponne-arcade-car-park-uk",
+          "ref": "turn225view1"
+        }
+      ]
+    },
+    {
+      "id": "bp-richmond-road-towcester",
+      "name": "bp pulse · Richmond Road",
+      "town": "Towcester",
+      "lat": 52.130737,
+      "lng": -0.988444,
+      "routeKm": 64.44,
+      "routeOffsetM": 69,
+      "checkedOn": "2026-11-14",
+      "notLiveAvailability": true,
+      "meetingEligible": false,
+      "corridorDefinition": "Straight-line distance to the retained route; not a pedestrian detour measurement.",
+      "operator": "bp pulse",
+      "address": "Richmond Road Car Park, Towcester NN12 6EX",
+      "chargingHours": "Car park 24 hours; charging operation needs confirmation",
+      "chargingOpening": {
+        "timeZone": "Europe/London",
+        "basis": "venue-access",
+        "weekly": {
+          "0": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "1": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "2": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "3": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "4": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "5": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ],
+          "6": [
+            [
+              "00:00",
+              "24:00"
+            ]
+          ]
+        }
+      },
+      "connectors": [
+        "Type 2, 7 kW"
+      ],
+      "maxPowerKw": 7,
+      "socketCount": 6,
+      "coordinateNote": "Destination coordinate from operator-fed AmpMap; separate car park/installation from Sponne Arcade, approximately 180 m away.",
+      "access": "Public council car park. Operator-fed data reported all six sockets out of order in its 12 November 2026 update; keep as a listed station with a clear check-operator status, not a recommended charging meet-up.",
+      "meetingNote": "Close to the route, but not charging-meetup eligible while working operation is unconfirmed.",
+      "availabilityCaution": "All six sockets reported out of order in the latest inspected operator-fed snapshot. No guarantee of current live condition.",
+      "sources": [
+        {
+          "label": "Council car parks and EV bays",
+          "url": "https://www.westnorthants.gov.uk/car-parks-west-northamptonshire/council-car-parks-towcester",
+          "ref": "turn231view2"
+        },
+        {
+          "label": "Operator-fed pin, connectors and condition",
+          "url": "https://ampmap.net/charger/bp-pulse-richmond-road-car-park-towcester-uk",
+          "ref": "turn224view0"
+        },
+        {
+          "label": "Independent station listing",
+          "url": "https://www.zapmap.com/charge-points/towcester/EJ8LALG",
+          "ref": "turn220search0"
+        }
+      ]
+    }
+  ],
+  "excludedOrUnverified": [
+    {
+      "name": "Freeway Service Station, Weedon",
+      "reason": "Reported recently installed Forward EV bays, but public charging operation, exact pin, connector and charger hours not verified from an operator source. Keep existing toilet/forecourt record; do not label verified charging yet.",
+      "sources": [
+        {
+          "label": "Official forecourt without confirmed EV details",
+          "url": "https://find.shell.com/gb/fuel/13032641-freeway-service-station",
+          "ref": "turn207view2"
+        },
+        {
+          "label": "Recent third-party installation observation",
+          "url": "https://www.linkedin.com/posts/theservicesking_sjsgroup-weedonbec-northamptonshire-activity-7475862539789230080-IZtR",
+          "ref": "turn226search1"
+        }
+      ]
+    },
+    {
+      "name": "The Depot Visitor Centre, Weedon",
+      "reason": "Directory lists charging but exact bay coordinate, public access and charger-specific hours not independently confirmed. Do not substitute visitor-centre hours for charging hours.",
+      "sources": [
+        {
+          "label": "Directory listing",
+          "url": "https://www.zapmap.com/charge-points/northampton/56282JU",
+          "ref": "turn214search0"
+        },
+        {
+          "label": "Official venue only",
+          "url": "https://the-depot.uk/the-visitor-centre/",
+          "ref": "turn214search2"
+        }
+      ]
+    },
+    {
+      "name": "Osprey Boat House, Braunston",
+      "reason": "Misleading Daventry-area search result; Braunston lies outside the retained route corridor. Exclude from on-route/next charging options."
+    },
+    {
+      "name": "Cummins / Volvo premises, Daventry",
+      "reason": "Workplace/private-estate charging: public eligibility not confirmed. Excluded."
+    },
+    {
+      "name": "Watford Gap motorway services",
+      "reason": "Outside course corridor and not a suitable safe pedestrian rendezvous. Excluded."
+    },
+    {
+      "name": "Dunchurch Baptist Church",
+      "reason": "Already behind the current route progress; public operation/hours of the church charger not verified. Not added to active remaining-route choices."
+    },
+    {
+      "name": "Towcester Market Square parking",
+      "reason": "Council currently lists the car park closed; no verified public charging option added."
+    }
+  ]
+}

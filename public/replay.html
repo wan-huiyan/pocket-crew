@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#132e44"><meta name="robots" content="noindex,nofollow">
+ <title>Emily’s Great Escape · The route replay</title>
+ <link rel="icon" href="assets/crow.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/vendor/leaflet.css"><link rel="stylesheet" href="replay.css"><link rel="stylesheet" href="storybook.css">
+ <script src="assets/vendor/leaflet.js" defer></script><script src="replay.js" defer></script>
+</head>
+<body>
+ <header class="replay-head"><a class="go-back" href="./" aria-label="Back to celebration home">← Celebration</a><span class="head-label">THE GREAT ESCAPE · 14 NOV 2026</span><a class="go-back" href="leaderboard.html">Rankings →</a></header>
+ <main>
+  <section class="intro">
+   <p class="overline">THE AFTER-ACTION REPORT · BIB 247</p>
+   <h1>Emily's <em>great escape!</em> <span>🖤</span></h1>
+   <p>One freezing November. Twenty-four hours of determination. One very enthusiastic crow crew.</p>
+   <div class="stat-row" aria-label="Final race stats"><div><strong>118.23 <small>km</small></strong><span>GPS path travelled*</span></div><div><strong>106.498 <small>km</small></strong><span>As the crow flies</span></div><div><strong>23<small>h</small> 49<small>m</small></strong><span>Elapsed on tracker</span></div></div>
+   <div class="medal-line"><span>🥇 Gold distance</span><span>🥈 2nd female solo</span><span>🥶 Freezing cold!</span></div>
+  </section>
+  <section class="experience" aria-label="Animated GPS journey">
+   <div id="replay-sky" class="replay-sky night"><div class="sky-stars" aria-hidden="true">✦ · ✧ &nbsp; ✧ &nbsp; · ✦ &nbsp; ✧ · &nbsp; ✦</div><div id="sky-orb" class="sky-orb" aria-hidden="true"></div><div class="sky-title"><span id="sky-period">Midnight escape</span><strong id="replay-clock">23:59</strong><span id="replay-date">Fri 13 November</span></div><div class="frost" aria-hidden="true">❄︎ ✳︎ ❆ ❅ ✳︎ ❄︎</div></div>
+   <div class="picture-book" id="picture-book" aria-label="Illustrated animated chapters of Emily’s adventure">
+    <div id="plate-a" class="storybook-plate plate-on" style="background-image:url('assets/storybook/midnight.webp')"></div><div id="plate-b" class="storybook-plate"></div>
+    <div class="storybook-sparkles" aria-hidden="true">✦ &nbsp; · &nbsp; ❄ &nbsp; ✧ &nbsp; · &nbsp; ✦ &nbsp; ❄</div>
+    <div id="stage-props" class="stage-props" aria-hidden="true"><span class="prop-car">🚙</span><span class="prop-cup">☕</span><span class="prop-steps">👣</span><span class="prop-heart">♡</span><span class="prop-crow">🐦‍⬛</span><span class="prop-confetti">✦ ✧ ✦ ✧ ✦ ✧ ✦ ✧</span></div>
+    <div class="storybook-heading"><span id="chapter-counter">CHAPTER ONE OF FIVE</span><strong id="chapter-title">The midnight getaway</strong><span id="chapter-location">Meriden · Escape begins</span></div>
+    <div id="storybook-burst" class="storybook-burst" aria-hidden="true">✦ GOLD ✦</div>
+    <div id="avatar-theatre" class="avatar-theatre" aria-label="Illustrative portraits of Emily and supporters"></div>
+    <div class="storybook-bottom"><span id="chapter-narration">Some siblings just go for coffee. These two chose 24 hours on the run.</span><span id="scene-footnote">Illustrated crew moments; check-ins and locations are recorded below.</span></div>
+   </div>
+   <div class="dynamic-stats" aria-label="Statistics changing throughout the playback"><div><small>GPS ON FOOT</small><strong id="stat-travelled">0.0 km</strong></div><div><small>CROW FLIGHT</small><strong id="stat-crow">0.0 km</strong></div><div><small>RECENT PACE*</small><strong id="stat-pace">—</strong></div><div><small>CREW PAUSE EST.**</small><strong id="stat-pauses">0 min</strong></div></div>
+   <div class="map-wrap"><div id="replay-map" role="img" aria-label="Emily’s recorded GPS route and the archived tracks of overlapping competitors shown as little moving crows"></div><div class="map-stamp">🧡 Emily’s travelled route · 🚙 11 crew check-ins</div><div class="map-crow-legend">🐦‍⬛ Emily + fellow escapee crows</div><label class="peer-control"><input id="show-peers" type="checkbox" checked><span>Show 35 fellow escapees on the map</span></label></div>
+   <div class="player" aria-label="Route playback controls">
+    <div class="player-top"><button id="replay-toggle" type="button" class="play-button" aria-label="Play route replay">▶ <span>Play our escape</span></button><button id="replay-speed" type="button" class="speed-button" aria-label="Change replay speed">1×</button><button id="replay-restart" type="button" class="icon-button" aria-label="Restart route replay">↺</button><span id="replay-progress">0 / 23h 49m</span></div>
+    <label class="visually-hidden" for="replay-scrub">Choose a point in the race</label><input id="replay-scrub" type="range" min="0" max="1000" value="0"><div class="time-ends"><span>Fri 23:59 · Meriden</span><span>Sat 23:48 · Finish</span></div>
+   </div>
+   <article id="replay-spotlight" class="spotlight" aria-live="polite"><div class="spot-icon" id="spot-icon">☕</div><div><span class="spot-type" id="spot-type">THE START</span><h2 id="spot-title">Some siblings just go for coffee.</h2><p id="spot-description">Press play. Emily’s recorded little dot is ready for another adventure.</p><div class="spot-people" id="spot-people"></div><div class="peer-encounter" id="peer-encounter">🐦‍⬛ Fellow escapees are warming their wings…</div></div></article>
+  </section>
+  <section class="story"><div class="story-heading"><p class="overline">THE LITTLE HELLOS THAT KEPT HER GOING</p><h2>Every step has a story.</h2><p>Tap a moment to jump to it. Stops are from crew check-ins; times are recorded, while durations are estimates from nearby GPS fixes.</p></div>
+   <div class="filters" role="group" aria-label="Filter moments"><button type="button" data-filter="all" aria-pressed="true">All moments</button><button type="button" data-filter="meeting" aria-pressed="false">🚙 Meet-ups</button><button type="button" data-filter="milestone" aria-pressed="false">🏅 Milestones</button><button type="button" data-filter="story" aria-pressed="false">♡ Our crew</button></div>
+   <ol id="replay-timeline" class="timeline"><li>Loading Emily’s recorded journey…</li></ol>
+  </section>
+  <section class="finish" id="replay-finish"><p class="overline">OUR WANTED POSTER</p><h2>Emily, you absolute legend!</h2><p>Freezing fingers. Warm hugs. Unstoppable heart. ♡</p><a href="assets/surprises/emily-final-2026.png" download="Emily-Great-Escape-2026.png"><img src="assets/surprises/emily-final-2026.webp" alt="Illustrated celebration of Emily’s gold-distance finish, 2nd female solo, with Jeff, Graham, Ben, Huiyan and Susan cheering from home" loading="lazy"></a><a class="download" href="assets/surprises/emily-final-2026.png" download="Emily-Great-Escape-2026.png">Save Emily’s celebration poster ↓</a></section>
+  <details class="download-data"><summary>Take the recorded escape home · GPS archives ↓</summary><p>Save the original coordinates, crew moments and milestone timeline for Emily, or the 35 matching historical crow tracks. The files are JSON and are no longer connected to live tracking.</p><a href="data/emily-replay-2026.json" download="Emily-Escape-2026-GPS.json">Download Emily’s route &amp; moments</a><a href="data/emily-peer-crows-2026.json" download="Meriden-2026-fellow-escapees.json">Download fellow escapee crow paths</a></details>
+  <p class="source-note">*The recent pace uses nearby GPS fixes and can be distorted by gaps or stop-start movement. **Crew pause estimates are approximate GPS near-stationary clusters, not measured dwell times. GPS path is the sum of 712 transmitted segments (118.23 km), which can differ from a watch distance. The official final crow-flight award distance is 106.498 km. Eleven crew check-ins record when a point was marked “met”, not an exact arrival/departure time; supporter illustrations are an affectionate montage, not independently verified attendance at each stop. Susan cheered from home. Fellow escapees are 35 saved, public, time-stamped tracks with at least 15 km of route overlap within 750 m of Emily’s path, selected from 70 screened GPS tracks; other runners may be absent if they diverged farther or had unavailable tracking. No live locations are shown. Original records were archived 15 November 2026.</p>
+ </main>
+ <footer>Powered by tofu ♡ &nbsp; · &nbsp; Crafted with love by the Crow Crew &nbsp; · &nbsp; <a href="./">Back to our celebration</a></footer>
+</body>
+</html>

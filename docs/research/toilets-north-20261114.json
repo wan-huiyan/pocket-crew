@@ -1,0 +1,593 @@
+[
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "esso-dunchurch-toilet",
+    "name": "Esso Dunchurch customer toilets",
+    "mapLabel": "Esso Dunchurch",
+    "town": "Dunchurch",
+    "lat": 52.338791,
+    "lng": -1.293227,
+    "address": "21 Coventry Road, Dunchurch / Rugby CV22 6RA",
+    "phone": "01788 814770",
+    "hours": "Station listed as open 24 hours daily; separate toilet opening times are not published.",
+    "hoursLabel": "Station 24 hours · ask staff for toilets",
+    "access": "Customer toilets are listed by Esso. Overnight toilet-door access is not separately confirmed.",
+    "coordinateNote": "Exact station coordinates from Esso's own JSON-LD GeoCoordinates, not an estimated postcode centre.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "1": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "Esso: Dunchurch station, amenities and opening hours",
+        "url": "https://www.esso.co.uk/en-gb/find-station/esso-rugby-essodunchurch-100356575"
+      }
+    ],
+    "evidence": "Official station amenities include 'Customer Toilets'; opening information says '24 hours'.",
+    "notes": "A 24-hour forecourt is not confirmation that the toilet door is accessible throughout the night. If the existing dataset has a credible conflicting door-access report, retain that warning and classify as conflicting."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "mfg-junction-daventry-toilet",
+    "name": "Esso MFG Junction customer toilets",
+    "mapLabel": "MFG Junction",
+    "town": "Daventry",
+    "lat": 52.248859,
+    "lng": -1.156467,
+    "address": "Western Avenue, Daventry NN11 4EA",
+    "phone": "01327 225198",
+    "hours": "Station listed as open 24 hours daily; separate toilet opening times are not published.",
+    "hoursLabel": "Station 24 hours · ask staff for toilets",
+    "access": "Customer toilets are listed by Esso. Ask staff; overnight toilet-door access is not separately confirmed.",
+    "coordinateNote": "Exact station coordinates from Esso's own JSON-LD GeoCoordinates.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "1": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "Esso: MFG Junction, Daventry, amenities and opening hours",
+        "url": "https://www.esso.co.uk/en-gb/find-station/100370476"
+      }
+    ],
+    "evidence": "Official station amenities include 'Customer Toilets'; opening information says '24 hours'."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "tesco-daventry-toilet",
+    "name": "Tesco Daventry Superstore toilets",
+    "mapLabel": "Tesco Daventry",
+    "town": "Daventry",
+    "lat": 52.257313199447715,
+    "lng": -1.1592740533320693,
+    "address": "15 New Street, Daventry NN11 4BT",
+    "phone": "",
+    "hours": "Store: Monday–Saturday 06:00–24:00; Sunday 10:00–16:00. Toilets are listed but have no separate timetable.",
+    "hoursLabel": "Mon–Sat 06:00–24:00 · Sun 10:00–16:00",
+    "access": "Store toilets, including step-free toilet facilities and baby changing. Ask staff for access; Tesco notes some facilities may have different hours.",
+    "coordinateNote": "Exact store coordinates from Tesco's own HTML location metadata / js-map-data.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "10:00",
+            "16:00"
+          ]
+        ],
+        "1": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "Tesco: Daventry Superstore, opening hours and accessibility",
+        "url": "https://www.tesco.com/store-locator/daventry/15-new-st"
+      }
+    ],
+    "evidence": "Official accessibility list includes 'Step-free standard toilet' and 'Step-free standard toilet with grab rails'.",
+    "notes": "The opening-time filter should label this likely available during store hours, not independently confirmed toilet hours."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "shell-freeway-weedon-toilet",
+    "name": "Shell Freeway Service Station toilets",
+    "mapLabel": "Shell Freeway",
+    "town": "Weedon Bec",
+    "lat": 52.232297,
+    "lng": -1.074165,
+    "address": "A5 / Watling Street, Weedon Bec NN7 4PX",
+    "phone": "01327 349574",
+    "hours": "Canonical official page: forecourt Monday–Sunday 06:00–22:00. A second official language version lists Sunday 07:00–22:00. Toilet opening times are not separate.",
+    "hoursLabel": "Mon–Sat 06:00–22:00 · Sunday opening uncertain",
+    "access": "Toilet and disabled facilities are listed by Shell. Customer access; ask staff. Forecourt hours do not independently confirm toilet availability.",
+    "coordinateNote": "Exact station coordinates from Shell's own JSON-LD GeoCoordinates.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "conflicting",
+      "weekly": {
+        "0": null,
+        "1": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "2": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "3": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "4": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "5": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "6": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "Shell: canonical Freeway Service Station listing, toilet and hours",
+        "url": "https://find.shell.com/gb/fuel/13032641-freeway-service-station"
+      },
+      {
+        "label": "Shell: alternate official listing with different Sunday opening",
+        "url": "https://find.shell.com/gb/fuel/13032641-freeway-service-station/en_MO"
+      }
+    ],
+    "evidence": "Canonical Shell page states 'This station includes a Car Wash and a Toilet.'",
+    "notes": "Saturday hours agree across the official versions. Sunday hours conflict by one hour; do not label Sunday as definitely open from 06:00."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "shell-towcester-toilet",
+    "name": "Shell Co-op Towcester toilets",
+    "mapLabel": "Shell Towcester",
+    "town": "Towcester",
+    "lat": 52.13884,
+    "lng": -0.996542,
+    "address": "Watling Street, Towcester NN12 6HN",
+    "phone": "01327 358072",
+    "hours": "Shell lists both forecourt and shop as open all day, Monday–Sunday (00:00–23:59). Toilet listed; no separate toilet timetable.",
+    "hoursLabel": "Shop 24 hours · ask staff for toilets",
+    "access": "Toilet is listed by Shell and the shop is listed 24 hours. Ask staff; temporary toilet closure is still possible.",
+    "coordinateNote": "Exact station coordinates from Shell's own JSON-LD GeoCoordinates.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "1": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "Shell: Co-op Towcester, toilet, shop and forecourt hours",
+        "url": "https://find.shell.com/gb/fuel/12038619-shell-co-op-towcester"
+      }
+    ],
+    "evidence": "Official station amenities include 'Toilet'; both forecourt and shop are listed Monday–Sunday 00:00–23:59.",
+    "notes": "Normalized 23:59 end to 24:00 for an all-day schedule."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "tesco-towcester-toilet",
+    "name": "Tesco Towcester Superstore toilets",
+    "mapLabel": "Tesco Towcester",
+    "town": "Towcester",
+    "lat": 52.138621475779765,
+    "lng": -0.9946204196330655,
+    "address": "Old Tiffield Road, Towcester NN12 6PF",
+    "phone": "",
+    "hours": "Store: Monday–Saturday 06:00–23:00; Sunday 10:00–16:00. Toilets are listed but have no separate timetable.",
+    "hoursLabel": "Mon–Sat 06:00–23:00 · Sun 10:00–16:00",
+    "access": "Customer toilets, step-free standard toilet facilities and baby changing. AccessAble places the toilets to the right on entering the store, about 20 metres from the entrance.",
+    "coordinateNote": "Exact store coordinates from Tesco's own HTML location metadata / js-map-data.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "10:00",
+            "16:00"
+          ]
+        ],
+        "1": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "2": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "3": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "4": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "5": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "6": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "Tesco: Towcester Superstore, opening hours and accessibility",
+        "url": "https://www.tesco.com/store-locator/towcester/old-tiffield-rd?bID=3293"
+      },
+      {
+        "label": "AccessAble: Tesco Towcester Superstore on-site access guide",
+        "url": "https://www.accessable.co.uk/tesco/access-guides/tesco-towcester-superstore"
+      }
+    ],
+    "evidence": "Official store facilities include 'Toilets'; accessibility list includes 'Step-free standard toilet'.",
+    "notes": "Tesco says some services/facilities may have opening times different from the main store."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "towcester-library-toilet",
+    "name": "Towcester Library public toilet",
+    "mapLabel": "Library WC",
+    "town": "Towcester",
+    "lat": 52.13369,
+    "lng": -0.98894,
+    "address": "The Forum, Moat Lane, Towcester NN12 6AD",
+    "phone": "",
+    "hours": "Library: Monday–Friday 09:00–18:00; Saturday 09:00–17:00; Sunday closed. Public toilet is inside the library.",
+    "hoursLabel": "Mon–Fri 09:00–18:00 · Sat 09:00–17:00 · Sun closed",
+    "access": "Public accessible toilet with baby changing. Library membership is not required to use the building. No RADAR-key requirement is stated by the council.",
+    "coordinateNote": "Library building point from OpenStreetMap node 4524917586 as reproduced by Mapcarta, matched to the council's exact address. This is the building, not a measured toilet-door coordinate. Use council opening hours, not Mapcarta's outdated Sunday hours.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [],
+        "1": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "2": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "3": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "4": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "5": [
+          [
+            "09:00",
+            "18:00"
+          ]
+        ],
+        "6": [
+          [
+            "09:00",
+            "17:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "West Northamptonshire Council: Towcester Library, public toilet and hours",
+        "url": "https://www.westnorthants.gov.uk/list-libraries/towcester-library"
+      },
+      {
+        "label": "OpenStreetMap location via Mapcarta: Towcester Library building",
+        "url": "https://mapcarta.com/N4524917586"
+      }
+    ],
+    "evidence": "Council toilet section: 'Disabled public toilet with baby changing facilities.' Council page updated 26 October 2026.",
+    "notes": "Nearby Forum council-office opening hours differ from library hours; use the library listing because it explicitly identifies the public toilet."
+  },
+  {
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "id": "daventry-country-park-toilets",
+    "name": "Daventry Country Park toilets",
+    "mapLabel": "Country Park WC",
+    "town": "Daventry",
+    "address": "Beside the Reservoir Café and Raisborough Centre, Daventry Country Park, off Northern Way, Daventry NN11 2JB",
+    "phone": "0300 126 7000",
+    "hours": "Toilets: daily 09:00–16:00 in winter; 09:00–17:00 in peak season. Closed Christmas Day and New Year's Day.",
+    "hoursLabel": "Winter daily 09:00–16:00",
+    "access": "Public toilets beside the Reservoir Café and Raisborough Centre, including accessible toilets and changing tables.",
+    "coordinateNote": "Coordinates omitted: the council confirms the toilet location beside the café but no precise building/toilet coordinates were independently verified. Do not place a postcode-centre pin. Likely an off-route detour north of Daventry; verify actual routing before recommending.",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "toilet",
+      "weekly": {
+        "0": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ],
+        "1": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ],
+        "2": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ],
+        "3": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ],
+        "4": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ],
+        "5": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ],
+        "6": [
+          [
+            "09:00",
+            "16:00"
+          ]
+        ]
+      }
+    },
+    "sources": [
+      {
+        "label": "West Northamptonshire Council: visiting Daventry Country Park, toilet-specific winter hours",
+        "url": "https://www.westnorthants.gov.uk/daventry-country-park/visiting-daventry-country-park"
+      }
+    ],
+    "evidence": "Council specifies toilet opening '9am until 4pm in winter' and locates them next to the café and Raisborough Centre.",
+    "notes": "Winter schedule applied for 14 November. The separate café winter hours end earlier; do not substitute café hours for toilet hours. Facilities closed on 25 December and 1 January."
+  }
+]

@@ -1,0 +1,498 @@
+{
+  "source": "Trail Live · public Escape from Meriden 2026 tracker",
+  "method": "Official GPS fix sequences; >=15 km of travelled segments with both ends within 750 m of Emily’s recorded route. Candidate screening used final report within 30 km of Emily’s route; runners who diverged farther may be absent.",
+  "screenedPaths": 70,
+  "matchingTracks": 35,
+  "details": [
+    {
+      "bib": "261",
+      "name": "Nathan Watson",
+      "overlapKm": 25.65,
+      "included": true,
+      "fixes": 307
+    },
+    {
+      "bib": "38",
+      "name": "Chris Cutts",
+      "overlapKm": 82.26,
+      "included": true,
+      "fixes": 516
+    },
+    {
+      "bib": "405",
+      "name": "Diesel power",
+      "overlapKm": 8.06,
+      "included": false,
+      "fixes": 369
+    },
+    {
+      "bib": "28",
+      "name": "Stuart Clarke",
+      "overlapKm": 99.95,
+      "included": true,
+      "fixes": 509
+    },
+    {
+      "bib": "104",
+      "name": "Ben Murphy",
+      "overlapKm": 2.68,
+      "included": false,
+      "fixes": 246
+    },
+    {
+      "bib": "201",
+      "name": "Tamara Janssen",
+      "overlapKm": 42.1,
+      "included": true,
+      "fixes": 357
+    },
+    {
+      "bib": "243",
+      "name": "Frances Shattock",
+      "overlapKm": 66.21,
+      "included": true,
+      "fixes": 308
+    },
+    {
+      "bib": "408",
+      "name": "Cat & Georgia Run",
+      "overlapKm": 1.32,
+      "included": false,
+      "fixes": 327
+    },
+    {
+      "bib": "251",
+      "name": "Alan Smith",
+      "overlapKm": 33.24,
+      "included": true,
+      "fixes": 287
+    },
+    {
+      "bib": "359",
+      "name": "White Line Zombies",
+      "overlapKm": 48.18,
+      "included": true,
+      "fixes": 477
+    },
+    {
+      "bib": "144",
+      "name": "Nic Vincent",
+      "overlapKm": 23.47,
+      "included": true,
+      "fixes": 505
+    },
+    {
+      "bib": "339",
+      "name": "Fi & Ayo",
+      "overlapKm": 54.03,
+      "included": true,
+      "fixes": 295
+    },
+    {
+      "bib": "403",
+      "name": "Wander to the Whistle",
+      "overlapKm": 3.71,
+      "included": false,
+      "fixes": 147
+    },
+    {
+      "bib": "383",
+      "name": "PAIR: Lara Stephens",
+      "overlapKm": 19.88,
+      "included": true,
+      "fixes": 220
+    },
+    {
+      "bib": "118",
+      "name": "Alessandro Rebecchi",
+      "overlapKm": 101.04,
+      "included": true,
+      "fixes": 685
+    },
+    {
+      "bib": "372",
+      "name": "PAIR: Andrew Bilton Daniel Carr Mycock",
+      "overlapKm": 9.52,
+      "included": false,
+      "fixes": 518
+    },
+    {
+      "bib": "357",
+      "name": "Centurion RC",
+      "overlapKm": 91.95,
+      "included": true,
+      "fixes": 661
+    },
+    {
+      "bib": "426",
+      "name": "Guillaume Arthus",
+      "overlapKm": 23.47,
+      "included": true,
+      "fixes": 163
+    },
+    {
+      "bib": "66",
+      "name": "Suzanne Hopkins",
+      "overlapKm": 3.51,
+      "included": false,
+      "fixes": 339
+    },
+    {
+      "bib": "235",
+      "name": "Ricky Ramshaw",
+      "overlapKm": 1.09,
+      "included": false,
+      "fixes": 118
+    },
+    {
+      "bib": "72",
+      "name": "Alex Hyde",
+      "overlapKm": 27.02,
+      "included": true,
+      "fixes": 692
+    },
+    {
+      "bib": "107",
+      "name": "Shelton Newson",
+      "overlapKm": 0.76,
+      "included": false,
+      "fixes": 103
+    },
+    {
+      "bib": "87",
+      "name": "Sean Lynch",
+      "overlapKm": 2.7,
+      "included": false,
+      "fixes": 230
+    },
+    {
+      "bib": "108",
+      "name": "Anneli Ostler",
+      "overlapKm": 12.48,
+      "included": false,
+      "fixes": 389
+    },
+    {
+      "bib": "327",
+      "name": "As the Buzzard flies",
+      "overlapKm": 82.05,
+      "included": true,
+      "fixes": 500
+    },
+    {
+      "bib": "275",
+      "name": "Jessica Threlfall",
+      "overlapKm": 0.73,
+      "included": false,
+      "fixes": 115
+    },
+    {
+      "bib": "119",
+      "name": "Laura Regan",
+      "overlapKm": 2.58,
+      "included": false,
+      "fixes": 318
+    },
+    {
+      "bib": "269",
+      "name": "Cathryn Woodward",
+      "overlapKm": 65.74,
+      "included": true,
+      "fixes": 554
+    },
+    {
+      "bib": "181",
+      "name": "Ryan Fingleton",
+      "overlapKm": 0.61,
+      "included": false,
+      "fixes": 201
+    },
+    {
+      "bib": "379",
+      "name": "Bradburn & Small",
+      "overlapKm": 7.78,
+      "included": false,
+      "fixes": 401
+    },
+    {
+      "bib": "401",
+      "name": "The Darnleys",
+      "overlapKm": 68.47,
+      "included": true,
+      "fixes": 548
+    },
+    {
+      "bib": "165",
+      "name": "Simon Branch",
+      "overlapKm": 36.95,
+      "included": true,
+      "fixes": 183
+    },
+    {
+      "bib": "160",
+      "name": "Robin Belson",
+      "overlapKm": 60.26,
+      "included": true,
+      "fixes": 445
+    },
+    {
+      "bib": "3",
+      "name": "Joanne Armfield",
+      "overlapKm": 2.6,
+      "included": false,
+      "fixes": 393
+    },
+    {
+      "bib": "377",
+      "name": "Team Sach",
+      "overlapKm": 52.22,
+      "included": true,
+      "fixes": 344
+    },
+    {
+      "bib": "263",
+      "name": "Sam Whitewood",
+      "overlapKm": 12.27,
+      "included": false,
+      "fixes": 341
+    },
+    {
+      "bib": "149",
+      "name": "Benjamin Williams-Smith",
+      "overlapKm": 46.25,
+      "included": true,
+      "fixes": 541
+    },
+    {
+      "bib": "158",
+      "name": "Adam Bedingham",
+      "overlapKm": 83.78,
+      "included": true,
+      "fixes": 520
+    },
+    {
+      "bib": "419",
+      "name": "Just your usual Saturday Night",
+      "overlapKm": 53.79,
+      "included": true,
+      "fixes": 519
+    },
+    {
+      "bib": "97",
+      "name": "Shawn Mills",
+      "overlapKm": 2.64,
+      "included": false,
+      "fixes": 209
+    },
+    {
+      "bib": "421",
+      "name": "Tango & Cash",
+      "overlapKm": 24.12,
+      "included": true,
+      "fixes": 227
+    },
+    {
+      "bib": "200",
+      "name": "Henry James",
+      "overlapKm": 2.55,
+      "included": false,
+      "fixes": 255
+    },
+    {
+      "bib": "210",
+      "name": "Matt Leese",
+      "overlapKm": 98.67,
+      "included": true,
+      "fixes": 463
+    },
+    {
+      "bib": "364",
+      "name": "The Nifty Navigators",
+      "overlapKm": 65.71,
+      "included": true,
+      "fixes": 542
+    },
+    {
+      "bib": "15",
+      "name": "Laura Batchelor",
+      "overlapKm": 59.17,
+      "included": true,
+      "fixes": 446
+    },
+    {
+      "bib": "280",
+      "name": "Dave Fawkner",
+      "overlapKm": 2.64,
+      "included": false,
+      "fixes": 354
+    },
+    {
+      "bib": "225",
+      "name": "Rob Mossop",
+      "overlapKm": 12.56,
+      "included": false,
+      "fixes": 342
+    },
+    {
+      "bib": "260",
+      "name": "Jon Waldock",
+      "overlapKm": 2.51,
+      "included": false,
+      "fixes": 215
+    },
+    {
+      "bib": "392",
+      "name": "The Directional Drillers",
+      "overlapKm": 2.67,
+      "included": false,
+      "fixes": 237
+    },
+    {
+      "bib": "203",
+      "name": "Harry Julian",
+      "overlapKm": 0.61,
+      "included": false,
+      "fixes": 134
+    },
+    {
+      "bib": "133",
+      "name": "Jeff Simmons",
+      "overlapKm": 47.19,
+      "included": true,
+      "fixes": 224
+    },
+    {
+      "bib": "37",
+      "name": "Neil Currant",
+      "overlapKm": 56.01,
+      "included": true,
+      "fixes": 434
+    },
+    {
+      "bib": "196",
+      "name": "Charlotte Holloway",
+      "overlapKm": 77.28,
+      "included": true,
+      "fixes": 663
+    },
+    {
+      "bib": "267",
+      "name": "Ashley Wood",
+      "overlapKm": 11.86,
+      "included": false,
+      "fixes": 522
+    },
+    {
+      "bib": "5",
+      "name": "Tom Atkinson",
+      "overlapKm": 10.77,
+      "included": false,
+      "fixes": 545
+    },
+    {
+      "bib": "417",
+      "name": "'Til Escape do we part",
+      "overlapKm": 0.77,
+      "included": false,
+      "fixes": 407
+    },
+    {
+      "bib": "436",
+      "name": "Replacement Service to London",
+      "overlapKm": 10.86,
+      "included": false,
+      "fixes": 619
+    },
+    {
+      "bib": "407",
+      "name": "Dine and Dash",
+      "overlapKm": 36.7,
+      "included": true,
+      "fixes": 361
+    },
+    {
+      "bib": "361",
+      "name": "Midnight Nutters",
+      "overlapKm": 2.66,
+      "included": false,
+      "fixes": 116
+    },
+    {
+      "bib": "424",
+      "name": "Highlanders",
+      "overlapKm": 75.73,
+      "included": true,
+      "fixes": 721
+    },
+    {
+      "bib": "341",
+      "name": "My sister made me do it!",
+      "overlapKm": 101.86,
+      "included": true,
+      "fixes": 562
+    },
+    {
+      "bib": "315",
+      "name": "Iron mikes",
+      "overlapKm": 92.88,
+      "included": true,
+      "fixes": 593
+    },
+    {
+      "bib": "27",
+      "name": "Daniel Clarke",
+      "overlapKm": 99.61,
+      "included": true,
+      "fixes": 473
+    },
+    {
+      "bib": "111",
+      "name": "Paul Parson",
+      "overlapKm": 0.82,
+      "included": false,
+      "fixes": 176
+    },
+    {
+      "bib": "150",
+      "name": "Peter Woods",
+      "overlapKm": 13.31,
+      "included": false,
+      "fixes": 384
+    },
+    {
+      "bib": "209",
+      "name": "Kerry Langworthy",
+      "overlapKm": 0.84,
+      "included": false,
+      "fixes": 200
+    },
+    {
+      "bib": "79",
+      "name": "Christian Kitley",
+      "overlapKm": 2.65,
+      "included": false,
+      "fixes": 244
+    },
+    {
+      "bib": "330",
+      "name": "Team Kenifer",
+      "overlapKm": 2.63,
+      "included": false,
+      "fixes": 292
+    },
+    {
+      "bib": "323",
+      "name": "Realbuzz Heavies",
+      "overlapKm": 2.56,
+      "included": false,
+      "fixes": 562
+    },
+    {
+      "bib": "74",
+      "name": "Suzanne Jenkins",
+      "overlapKm": 8.16,
+      "included": false,
+      "fixes": 441
+    }
+  ]
+}

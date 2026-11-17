@@ -1,0 +1,40 @@
+/* Released art is the focus of a moment; it is never mounted before release. */
+#cheer-dialog.has-poster{padding:calc(12px + env(safe-area-inset-top)) 18px calc(12px + env(safe-area-inset-bottom));overflow:auto}
+#cheer-dialog.has-poster .cheer-content{height:100%;min-height:0;max-width:380px;padding:46px 0 0;gap:7px;justify-content:flex-start}
+#cheer-dialog.has-poster .cheer-stage{display:none}
+#cheer-dialog.has-poster .cheer-eyebrow{flex:none;font-size:11px;line-height:1.25;margin:0}
+#cheer-dialog.has-poster h1{flex:none;font-size:clamp(22px,6vw,29px);line-height:1.08;margin:0;text-wrap:balance}
+#cheer-dialog.has-poster #cheer-subtitle{flex:none;font-size:14px;line-height:1.3;max-width:340px;margin:0}
+#cheer-dialog .cheer-poster-frame{display:flex;align-items:center;justify-content:center;min-height:130px;flex:1 1 0;width:100%;max-width:340px;padding:0;border:0;background:transparent;border-radius:9px;overflow:hidden;cursor:zoom-in}
+#cheer-dialog .cheer-poster-frame[hidden]{display:none}
+#cheer-dialog #cheer-poster{display:block;object-fit:contain;width:100%;height:100%;max-height:100%;filter:drop-shadow(0 3px 3px #25423825)}
+#cheer-dialog.has-poster #cheer-saved-note,#cheer-dialog.has-poster #cheer-poster-status{flex:none;font-size:12px;line-height:1.25;margin:0}
+#cheer-dialog.has-poster #cheer-open-poster{flex:none;min-height:44px;font-size:16px;margin:0;padding:9px 12px}
+#cheer-dialog.has-poster #cheer-back{flex:none;min-height:40px;margin:0;padding:7px 14px}
+.milestone-poster-moment{display:flex;align-items:center;gap:14px;margin:12px 0 16px;padding:14px;border:1px solid var(--line);border-radius:15px;background:var(--soft)}
+.milestone-poster-moment>.poster-thumb{flex:0 0 72px}
+.milestone-poster-moment>div{display:flex;flex-direction:column;align-items:flex-start;gap:5px}
+.milestone-poster-moment .text-button{text-align:left;min-height:42px;padding:6px 0;font-size:15px}
+@media(max-height:570px){
+ #cheer-dialog.has-poster .cheer-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto auto 1fr auto auto;gap:4px 14px;padding:42px 0 0;max-width:620px}
+ #cheer-dialog.has-poster .cheer-poster-frame{grid-column:1;grid-row:1/7;max-width:none;min-height:0;height:100%}
+ #cheer-dialog.has-poster .cheer-eyebrow,#cheer-dialog.has-poster h1,#cheer-dialog.has-poster #cheer-subtitle,#cheer-dialog.has-poster #cheer-saved-note,#cheer-dialog.has-poster #cheer-open-poster,#cheer-dialog.has-poster #cheer-back{grid-column:2}
+ #cheer-dialog.has-poster #cheer-subtitle{font-size:12px}
+ #cheer-dialog.has-poster h1{font-size:22px}
+ #cheer-dialog.has-poster #cheer-poster-status{display:none}
+}
+@media(prefers-reduced-motion:reduce){#cheer-dialog .cheer-confetti{display:none}#cheer-dialog *{animation:none!important;transition:none!important}}
+
+/* One phone-first home for the posters and their crossing records. */
+#panel-milestones .moments-group-title{font-size:18px;line-height:1.3;margin:4px 0 0;color:var(--muted)}
+#panel-milestones .milestone-runner{padding:10px 0}
+#panel-milestones .milestone-evidence{margin-top:4px}
+#panel-milestones .milestone-evidence summary{font-size:13px;color:var(--muted);min-height:30px;padding:5px 0}
+#panel-milestones .milestone-evidence small{margin:0 0 5px}
+#panel-milestones .milestone-map-action{font-size:14px;min-height:44px;padding:8px 0;text-align:left}
+#panel-milestones .milestone-notes summary,#panel-milestones .crew-controls-only>summary{font-size:16px;min-height:44px;display:flex;align-items:center}
+#panel-milestones .milestone-intro{font-size:16px;margin-bottom:14px}
+#panel-milestones .milestone-finale{margin:14px 0 22px;display:grid;gap:12px}
+#panel-milestones .milestone-finale-poster{display:block;overflow:hidden;border-radius:18px;border:2px solid #e8ad73;background:#172f5d;box-shadow:0 4px 12px #23352f1a}
+#panel-milestones .milestone-finale-poster img{display:block;width:100%;height:auto}
+#panel-milestones .milestone-finale-replay{min-height:54px;display:flex;align-items:center;justify-content:center;gap:10px;text-align:center;font-weight:800}

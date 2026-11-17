@@ -1,0 +1,2159 @@
+{
+  "checkedOn": "2026-11-14",
+  "scope": {
+    "checkedOn": "2026-11-14",
+    "corridorMetres": 800,
+    "scope": "All cafés already in the guide plus café/coffee candidates from a bounded public-register search within 800 m straight-line of the retained full route; rural meeting cafés retained as approximate source pins.",
+    "notExhaustive": true,
+    "notLiveAvailability": true,
+    "locationSource": "Food Standards Agency / local authority published business coordinates, official venue location data or explicit retained route pins.",
+    "attribution": "Food Standards Agency food hygiene ratings data, supplied by local authorities; Open Government Licence v3.0.",
+    "candidateCount": 85,
+    "cafeCount": 89,
+    "note": "Café listings are possible places to ask for a customer WC. Hours and access are unknown unless separately sourced; route offsets are not measured walking routes. No café or charger becomes an agreed meeting point automatically. Some cafés sharing one published site coordinate use a single named site marker."
+  },
+  "search": {
+    "centre": {
+      "lat": 52.258,
+      "lng": -1.162
+    },
+    "radiusMiles": 40,
+    "nameQueries": [
+      "Granny",
+      "Cuppa",
+      "Square Coffee",
+      "Ten Hands",
+      "Fabrice",
+      "Forge Coffee",
+      "Super Sausage",
+      "Peggotty",
+      "Willoughby",
+      "Coffee 1",
+      "Costa Coffee",
+      "Starbucks",
+      "Cafe",
+      "Coffee",
+      "Cafe page 2",
+      "Bean",
+      "Caff",
+      "Tearoom",
+      "Tea Room",
+      "Muffin",
+      "Sausage",
+      "Dobbies",
+      "Caff page 2",
+      "The Cloud Space",
+      "The Board Room",
+      "The Reading Tree"
+    ],
+    "source": "https://api.ratings.food.gov.uk/Establishments",
+    "retrieval": "FSA API v2, all pages for Café/Caff. New records projected on public/data/route.geojson; retain only 800 m corridor. Café labels and registration alone do not verify customer WCs."
+  },
+  "excluded": [
+    {
+      "fhrsId": 239184,
+      "reason": "University building counter; public access unverified."
+    },
+    {
+      "fhrsId": 1758649,
+      "reason": "University building counter; public access unverified."
+    },
+    {
+      "fhrsId": 1182321,
+      "reason": "School café; walk-in public access unverified."
+    },
+    {
+      "fhrsId": 1006155,
+      "reason": "Day-centre café; general public access unverified."
+    },
+    {
+      "fhrsId": 1950222,
+      "reason": "Produce vendor, not the Dobbies café."
+    },
+    {
+      "fhrsId": 1959750,
+      "reason": "Gym café; non-member access not verified."
+    },
+    {
+      "fhrsId": 2003412,
+      "id": "cafe-fsa-2003412",
+      "name": "Jacks Hill Café and Truck Stop",
+      "reason": "Closure of the physical A5 café reported 2 October 2026, despite stale official site/register hours; excluded from available café/WC options.",
+      "sources": [
+        {
+          "label": "Closure report quoting the management announcement",
+          "url": "https://www.northamptonchron.co.uk/news/people/heartbroken-iconic-family-run-roadside-cafe-in-northamptonshire-closes-despite-owners-fight-to-stay-open-9254043"
+        },
+        {
+          "label": "Directory marks permanently closed",
+          "url": "https://bikerbase.co.uk/places/jacks-hill-cafe-and-truck-stop/"
+        }
+      ]
+    }
+  ],
+  "duplicateBuildingRecords": [
+    {
+      "fhrsId": 963964,
+      "mergedInto": "cafe-fsa-1031089"
+    },
+    {
+      "fhrsId": 1860941,
+      "mergedInto": "cafe-fsa-1774980"
+    }
+  ],
+  "newFacilityIds": [
+    "cafe-fsa-1928147",
+    "cafe-fsa-1568242",
+    "cafe-fsa-1056155",
+    "cafe-fsa-1417207",
+    "cafe-fsa-1867227",
+    "cafe-fsa-239235",
+    "cafe-fsa-1216050",
+    "cafe-fsa-1907172",
+    "cafe-fsa-1760618",
+    "cafe-fsa-2010508",
+    "cafe-fsa-1930771",
+    "cafe-fsa-1780086",
+    "cafe-fsa-1892282",
+    "cafe-fsa-705616",
+    "cafe-fsa-239600",
+    "cafe-fsa-507169",
+    "cafe-fsa-1417214",
+    "cafe-fsa-1556947",
+    "cafe-fsa-1031089",
+    "cafe-fsa-1659717",
+    "cafe-fsa-1762616",
+    "cafe-fsa-240858",
+    "cafe-fsa-1681833",
+    "cafe-fsa-1881502",
+    "cafe-fsa-1739489",
+    "cafe-fsa-1881510",
+    "cafe-fsa-800537",
+    "cafe-fsa-1066749",
+    "cafe-fsa-1855155",
+    "cafe-fsa-1288293",
+    "cafe-fsa-239145",
+    "cafe-fsa-1979859",
+    "cafe-fsa-806090",
+    "cafe-fsa-1915065",
+    "cafe-fsa-1887861",
+    "cafe-fsa-1046858",
+    "cafe-fsa-1730254",
+    "cafe-fsa-1998969",
+    "cafe-fsa-1900977",
+    "cafe-fsa-2010510",
+    "cafe-fsa-1774980",
+    "cafe-fsa-1841517",
+    "cafe-fsa-241042",
+    "cafe-fsa-1692619",
+    "cafe-fsa-1959745",
+    "cafe-fsa-1993364",
+    "cafe-fsa-843382",
+    "cafe-fsa-1832984",
+    "cafe-fsa-546179",
+    "cafe-fsa-1876774",
+    "cafe-fsa-1497487",
+    "cafe-fsa-1211973",
+    "cafe-fsa-1583254",
+    "cafe-fsa-1792745",
+    "cafe-fsa-1910261",
+    "cafe-fsa-1672277",
+    "cafe-fsa-1095813",
+    "cafe-fsa-733433",
+    "cafe-fsa-1750965",
+    "cafe-fsa-1803345",
+    "cafe-fsa-854805",
+    "cafe-fsa-2002945",
+    "cafe-fsa-2002735",
+    "cafe-fsa-2002880",
+    "cafe-fsa-2002898",
+    "cafe-fsa-2003445",
+    "cafe-fsa-2003325",
+    "cafe-fsa-2002469",
+    "cafe-fsa-2003185",
+    "cafe-fsa-132930",
+    "cafe-fsa-1630597",
+    "cafe-fsa-1841132",
+    "cafe-fsa-1907357",
+    "cafe-fsa-2007994",
+    "cafe-fsa-107285",
+    "cafe-fsa-1733645",
+    "cafe-fsa-1694034",
+    "cafe-fsa-1100907",
+    "cafe-fsa-132917",
+    "cafe-fsa-1576109",
+    "cafe-fsa-450666",
+    "costa-coventry-rugby-road",
+    "willoughby-cafe-candidate",
+    "super-sausage-cafe-candidate"
+  ],
+  "sources": [
+    {
+      "id": "cafe-fsa-1928147",
+      "name": "Café crescent creamy cafe",
+      "town": "Coventry",
+      "lat": 52.4067949,
+      "lng": -1.5760948,
+      "routeKm": 7.153,
+      "routeOffsetM": 377,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1928147"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1928147"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1568242",
+      "name": "Go Cafe",
+      "town": "Coventry",
+      "lat": 52.4007436,
+      "lng": -1.5438336,
+      "routeKm": 9.359,
+      "routeOffsetM": 321,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1568242"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1568242"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1056155",
+      "name": "Cafe Bravo",
+      "town": "Coventry",
+      "lat": 52.3986421,
+      "lng": -1.5331535,
+      "routeKm": 9.808,
+      "routeOffsetM": 695,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1056155"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1056155"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1417207",
+      "name": "Angelito Cafe & Tapas Bar",
+      "town": "Coventry",
+      "lat": 52.3987937,
+      "lng": -1.5328286,
+      "routeKm": 9.815,
+      "routeOffsetM": 688,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1417207"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1417207"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1867227",
+      "name": "angiii’s cafe",
+      "town": "Coventry",
+      "lat": 52.4050298,
+      "lng": -1.5343358,
+      "routeKm": 10.001,
+      "routeOffsetM": 22,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1867227"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1867227"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-239235",
+      "name": "Millsys Cafe Bar Bistro Ltd",
+      "town": "Coventry",
+      "lat": 52.3994815,
+      "lng": -1.531719,
+      "routeKm": 10.146,
+      "routeOffsetM": 634,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/239235"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/239235"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1216050",
+      "name": "O'Toole's Cafe",
+      "town": "Coventry",
+      "lat": 52.401872,
+      "lng": -1.5314881,
+      "routeKm": 10.19,
+      "routeOffsetM": 371,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1216050"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1216050"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1907172",
+      "name": "Spencer Park Community Cafe",
+      "town": "Coventry",
+      "lat": 52.40022777,
+      "lng": -1.52263269,
+      "routeKm": 10.466,
+      "routeOffsetM": 714,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1907172"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1907172"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1760618",
+      "name": "Café 1935",
+      "town": "Coventry",
+      "lat": 52.4056441,
+      "lng": -1.5237288,
+      "routeKm": 10.62,
+      "routeOffsetM": 238,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1760618"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1760618"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2010508",
+      "name": "Bella Caffe Shop",
+      "town": "Coventry",
+      "lat": 52.4082504,
+      "lng": -1.5288893,
+      "routeKm": 10.705,
+      "routeOffsetM": 208,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2010508"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2010508"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1930771",
+      "name": "Shortland Coffee",
+      "town": "Coventry",
+      "lat": 52.4021116,
+      "lng": -1.5131308,
+      "routeKm": 11.54,
+      "routeOffsetM": 731,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1930771"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1930771"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1780086",
+      "name": "Shortland Coffee Company",
+      "town": "Coventry",
+      "lat": 52.4047436,
+      "lng": -1.5145392,
+      "routeKm": 11.54,
+      "routeOffsetM": 426,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1780086"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1780086"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1892282",
+      "name": "Centenary Coffee & Co",
+      "town": "Coventry",
+      "lat": 52.4016819,
+      "lng": -1.51291325,
+      "routeKm": 11.54,
+      "routeOffsetM": 781,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1892282"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1892282"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-705616",
+      "name": "Caffe Nero",
+      "town": "Coventry",
+      "lat": 52.4081755,
+      "lng": -1.5139578,
+      "routeKm": 11.577,
+      "routeOffsetM": 98,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/705616"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/705616"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-239600",
+      "name": "Costa Coffee",
+      "town": "Coventry",
+      "lat": 52.4077549,
+      "lng": -1.5122278,
+      "routeKm": 11.622,
+      "routeOffsetM": 216,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/239600"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/239600"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-507169",
+      "name": "Sovrano Caffe",
+      "town": "Coventry",
+      "lat": 52.4087364,
+      "lng": -1.5126286,
+      "routeKm": 11.677,
+      "routeOffsetM": 123,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/507169"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/507169"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1417214",
+      "name": "Cacao Coffee and Chocolate Company",
+      "town": "Coventry",
+      "lat": 52.4087328,
+      "lng": -1.5117319,
+      "routeKm": 11.716,
+      "routeOffsetM": 169,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1417214"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1417214"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1556947",
+      "name": "Connors Coffee",
+      "town": "Coventry",
+      "lat": 52.4093749,
+      "lng": -1.5127189,
+      "routeKm": 11.728,
+      "routeOffsetM": 72,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1556947"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1556947"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1031089",
+      "name": "West Orchards cafés · Costa / Cocoa",
+      "town": "Coventry",
+      "lat": 52.4092595,
+      "lng": -1.512151,
+      "routeKm": 11.739,
+      "routeOffsetM": 110,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1031089"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1031089"
+        },
+        {
+          "label": "Another café in the same mapped building",
+          "url": "https://ratings.food.gov.uk/business/963964"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1659717",
+      "name": "Simons Cafe",
+      "town": "Coventry",
+      "lat": 52.4114483,
+      "lng": -1.5140395,
+      "routeKm": 11.799,
+      "routeOffsetM": 159,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1659717"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1659717"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1762616",
+      "name": "Playwrights Cafe",
+      "town": "Coventry",
+      "lat": 52.4137036,
+      "lng": -1.5115449,
+      "routeKm": 11.98,
+      "routeOffsetM": 351,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1762616"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1762616"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-240858",
+      "name": "Cafe Italia",
+      "town": "Coventry",
+      "lat": 52.40951025,
+      "lng": -1.5096006,
+      "routeKm": 12.089,
+      "routeOffsetM": 111,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/240858"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/240858"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1681833",
+      "name": "The Vault Coffee Lounge",
+      "town": "Coventry",
+      "lat": 52.4063386,
+      "lng": -1.5088918,
+      "routeKm": 12.22,
+      "routeOffsetM": 412,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1681833"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1681833"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1881502",
+      "name": "Drapers Cafè",
+      "town": "Coventry",
+      "lat": 52.4074457,
+      "lng": -1.5070127,
+      "routeKm": 12.288,
+      "routeOffsetM": 266,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1881502"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1881502"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1739489",
+      "name": "Union Streat Cafe",
+      "town": "Coventry",
+      "lat": 52.4053862,
+      "lng": -1.5039877,
+      "routeKm": 12.487,
+      "routeOffsetM": 440,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1739489"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1739489"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1881510",
+      "name": "Cafe North",
+      "town": "Coventry",
+      "lat": 52.4140219,
+      "lng": -1.5037345,
+      "routeKm": 12.627,
+      "routeOffsetM": 450,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1881510"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1881510"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-800537",
+      "name": "Creams Cafe",
+      "town": "Coventry",
+      "lat": 52.4126931,
+      "lng": -1.504161,
+      "routeKm": 12.627,
+      "routeOffsetM": 323,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/800537"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/800537"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1066749",
+      "name": "Ebo Cafe",
+      "town": "Coventry",
+      "lat": 52.41595,
+      "lng": -1.498317,
+      "routeKm": 12.637,
+      "routeOffsetM": 690,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1066749"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1066749"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1855155",
+      "name": "Skylite Café",
+      "town": "Coventry",
+      "lat": 52.4159335,
+      "lng": -1.49867,
+      "routeKm": 12.637,
+      "routeOffsetM": 680,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1855155"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1855155"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1288293",
+      "name": "Kurdish Coffee Shop",
+      "town": "Coventry",
+      "lat": 52.4134012,
+      "lng": -1.4995018,
+      "routeKm": 12.637,
+      "routeOffsetM": 397,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1288293"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1288293"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-239145",
+      "name": "Selam Coffee Shop",
+      "town": "Coventry",
+      "lat": 52.413808,
+      "lng": -1.4998849,
+      "routeKm": 12.637,
+      "routeOffsetM": 430,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/239145"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/239145"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1979859",
+      "name": "Al Furat Supermarket Coffee Bar",
+      "town": "Coventry",
+      "lat": 52.413934,
+      "lng": -1.4999276,
+      "routeKm": 12.637,
+      "routeOffsetM": 443,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1979859"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1979859"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-806090",
+      "name": "Darya Restaurant and Coffee Shop",
+      "town": "Coventry",
+      "lat": 52.4136909,
+      "lng": -1.4998421,
+      "routeKm": 12.637,
+      "routeOffsetM": 419,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/806090"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/806090"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1915065",
+      "name": "Cafe Forever23",
+      "town": "Coventry",
+      "lat": 52.4101281,
+      "lng": -1.5013524,
+      "routeKm": 12.661,
+      "routeOffsetM": 23,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1915065"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1915065"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1887861",
+      "name": "My Latte Cafe",
+      "town": "Coventry",
+      "lat": 52.4031811,
+      "lng": -1.501945,
+      "routeKm": 12.929,
+      "routeOffsetM": 626,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1887861"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1887861"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1046858",
+      "name": "The Pod Cafe",
+      "town": "Coventry",
+      "lat": 52.407755,
+      "lng": -1.4971602,
+      "routeKm": 13.038,
+      "routeOffsetM": 66,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1046858"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1046858"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1730254",
+      "name": "Estekaan Coffee",
+      "town": "Coventry",
+      "lat": 52.40759336,
+      "lng": -1.49708675,
+      "routeKm": 13.045,
+      "routeOffsetM": 83,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1730254"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1730254"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1998969",
+      "name": "Diamond caffe",
+      "town": "Coventry",
+      "lat": 52.4074745,
+      "lng": -1.496737,
+      "routeKm": 13.071,
+      "routeOffsetM": 92,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1998969"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1998969"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1900977",
+      "name": "Fargo Cafe",
+      "town": "Coventry",
+      "lat": 52.4079283,
+      "lng": -1.4956147,
+      "routeKm": 13.121,
+      "routeOffsetM": 52,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1900977"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1900977"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2010510",
+      "name": "Habibi Restaurant & Cafe",
+      "town": "Coventry",
+      "lat": 52.4077989,
+      "lng": -1.4947929,
+      "routeKm": 13.17,
+      "routeOffsetM": 74,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2010510"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2010510"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1774980",
+      "name": "Fargo Village · Kerala Café / Coffee & Cuddles",
+      "town": "Coventry",
+      "lat": 52.4076614,
+      "lng": -1.4935693,
+      "routeKm": 13.242,
+      "routeOffsetM": 111,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1774980"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1774980"
+        },
+        {
+          "label": "Another café in the same mapped building",
+          "url": "https://ratings.food.gov.uk/business/1860941"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1841517",
+      "name": "SBCS Cafe",
+      "town": "Coventry",
+      "lat": 52.412665,
+      "lng": -1.4827997,
+      "routeKm": 13.738,
+      "routeOffsetM": 685,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1841517"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1841517"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-241042",
+      "name": "2 Tone Corner Cafe Ltd / Simmer Down",
+      "town": "Coventry",
+      "lat": 52.4102952,
+      "lng": -1.4836675,
+      "routeKm": 13.738,
+      "routeOffsetM": 432,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/241042"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/241042"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1692619",
+      "name": "Little Moon Cafe",
+      "town": "Coventry",
+      "lat": 52.4030982,
+      "lng": -1.4866888,
+      "routeKm": 13.917,
+      "routeOffsetM": 380,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1692619"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1692619"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1959745",
+      "name": "ROSEBUD CAFE & MO:MO HOUSE",
+      "town": "Coventry",
+      "lat": 52.4113774,
+      "lng": -1.4811752,
+      "routeKm": 14.188,
+      "routeOffsetM": 567,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1959745"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1959745"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1993364",
+      "name": "Shipwreck Cafe",
+      "town": "Coventry",
+      "lat": 52.4063569,
+      "lng": -1.4778264,
+      "routeKm": 14.435,
+      "routeOffsetM": 13,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1993364"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1993364"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-843382",
+      "name": "Rossi's Big Breakfast Cafe",
+      "town": "Coventry",
+      "lat": 52.4065201,
+      "lng": -1.4776382,
+      "routeKm": 14.448,
+      "routeOffsetM": 31,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/843382"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/843382"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1832984",
+      "name": "The Triangle Cafe",
+      "town": "Coventry",
+      "lat": 52.4042891,
+      "lng": -1.4752833,
+      "routeKm": 14.535,
+      "routeOffsetM": 236,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1832984"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1832984"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "costa-coventry-rugby-road",
+      "name": "Costa · Coventry Rugby Rd DT",
+      "town": "Coventry / Binley",
+      "lat": 52.39643,
+      "lng": -1.4339,
+      "routeKm": 17.852,
+      "routeOffsetM": 14,
+      "coordinateNote": "Venue coordinates and weekly opening schedule from the official Costa store page structured data.",
+      "sources": [
+        {
+          "label": "Official Costa store: amenities, hours and location",
+          "url": "https://www.costa.co.uk/stores/coventry-rugby-rd-dt"
+        }
+      ],
+      "evidence": "Official Costa amenities explicitly list disabled toilets and baby changing; this is not inferred from café presence."
+    },
+    {
+      "id": "cafe-fsa-546179",
+      "name": "Costa · Coventry Binley RP",
+      "town": "Coventry / Binley",
+      "lat": 52.397294,
+      "lng": -1.433153,
+      "routeKm": 17.888,
+      "routeOffsetM": 117,
+      "coordinateNote": "Venue coordinates and weekly opening schedule from the official Costa store page structured data.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/546179"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/546179"
+        },
+        {
+          "label": "Official Costa store: amenities, hours and location",
+          "url": "https://www.costa.co.uk/stores/coventry-binley-rp"
+        }
+      ],
+      "evidence": "Official Costa amenities explicitly list disabled toilets and baby changing; this is not inferred from café presence."
+    },
+    {
+      "id": "cafe-fsa-1876774",
+      "name": "Woods Coffee Shop",
+      "town": "Coventry",
+      "lat": 52.3907374,
+      "lng": -1.4188471,
+      "routeKm": 19.013,
+      "routeOffsetM": 378,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1876774"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1876774"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1497487",
+      "name": "The Link Café · Wolston",
+      "town": "Coventry",
+      "lat": 52.3753081,
+      "lng": -1.3968602,
+      "routeKm": 21.969,
+      "routeOffsetM": 160,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1497487"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1497487"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1211973",
+      "name": "Square Coffee",
+      "town": "Dunchurch",
+      "lat": 52.337059,
+      "lng": -1.2904217,
+      "routeKm": 31.384,
+      "routeOffsetM": 28,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1211973"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1211973"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://www.squarecoffeerugby.co.uk/"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-1583254",
+      "name": "Cuppa Dunchurch",
+      "town": "Dunchurch",
+      "lat": 52.3369063,
+      "lng": -1.2895846,
+      "routeKm": 31.444,
+      "routeOffsetM": 13,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1583254"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1583254"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://www.cuppadunchurch.co.uk/"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "willoughby-cafe-candidate",
+      "name": "Willoughby Café",
+      "town": "Willoughby",
+      "lat": 52.3021294,
+      "lng": -1.2337002,
+      "routeKm": 36.978,
+      "routeOffsetM": 11,
+      "coordinateNote": "Uses the original user-supplied route meeting pin beside this café, not a verified entrance. The landmark notes place the café about 16 m from that pin.",
+      "sources": [
+        {
+          "label": "Existing shared route meeting pin",
+          "url": "https://www.google.com/maps/d/viewer?mid=1fFhAcQkyqY84feHYgWFf6A7zw5k4A0w"
+        },
+        {
+          "label": "Food Standards Agency café listing",
+          "url": "https://ratings.food.gov.uk/business/1913859"
+        }
+      ],
+      "evidence": "Existing planned meeting landmark identifies the café, corroborated by a public business listing. No precise toilet-door pin or primary current café hours were obtained."
+    },
+    {
+      "id": "cafe-fsa-1792745",
+      "name": "Braunston Community Cafe",
+      "town": "Braunston",
+      "lat": 52.291274,
+      "lng": -1.2081631,
+      "routeKm": 39.317,
+      "routeOffsetM": 533,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1792745"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1792745"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1910261",
+      "name": "The Storybook Play Cafe",
+      "town": "Daventry",
+      "lat": 52.2582694,
+      "lng": -1.1622574,
+      "routeKm": 44.07,
+      "routeOffsetM": 154,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1910261"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1910261"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1672277",
+      "name": "Deja Vu Cafe",
+      "town": "Daventry",
+      "lat": 52.2574537,
+      "lng": -1.1639781,
+      "routeKm": 44.088,
+      "routeOffsetM": 7,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1672277"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1672277"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1095813",
+      "name": "Ten Hands Bake House Cafe",
+      "town": "Daventry",
+      "lat": 52.2567609,
+      "lng": -1.1637948,
+      "routeKm": 44.161,
+      "routeOffsetM": 21,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1095813"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1095813"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://www.tenhands.co.uk/bakehouse"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-733433",
+      "name": "Costa Coffee",
+      "town": "Daventry",
+      "lat": 52.2572848,
+      "lng": -1.161602,
+      "routeKm": 44.197,
+      "routeOffsetM": 136,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/733433"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/733433"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "coffee1-daventry",
+      "name": "Coffee #1 · Daventry",
+      "lat": 52.2572689,
+      "lng": -1.1616175,
+      "routeKm": 44.2,
+      "routeOffsetM": 134,
+      "coordinateNote": "Pin from the venue’s own embedded Google map.",
+      "sources": [
+        {
+          "label": "Coffee #1 official store",
+          "url": "https://www.coffee1.co.uk/locations/daventry/"
+        },
+        {
+          "label": "Food Standards Agency business location",
+          "url": "https://ratings.food.gov.uk/business/1224051"
+        }
+      ]
+    },
+    {
+      "id": "cafe-fsa-1750965",
+      "name": "Cafe de Hadiya",
+      "town": "Daventry",
+      "lat": 52.2569115,
+      "lng": -1.1622097,
+      "routeKm": 44.205,
+      "routeOffsetM": 78,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1750965"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1750965"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-854805",
+      "name": "Granny's Cafe",
+      "town": "Weedon",
+      "lat": 52.2284759,
+      "lng": -1.0779471,
+      "routeKm": 51.507,
+      "routeOffsetM": 1,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/854805"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/854805"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://www.grannyscafe.co.uk/"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-2002945",
+      "name": "Peggottys Lounge",
+      "town": "Fosters Booth",
+      "lat": 52.1788214,
+      "lng": -1.0246526,
+      "routeKm": 58.528,
+      "routeOffsetM": 16,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2002945"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2002945"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://peggottyslounge.co.uk/"
+        }
+      ],
+      "evidence": "The venue is a pub/restaurant at the planned Fosters Booth meeting point. Official venue hours checked; toilet provision/access remains unconfirmed. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-2002735",
+      "name": "Costa Coffee",
+      "town": "Towcester",
+      "lat": 52.1330506,
+      "lng": -0.9893201,
+      "routeKm": 64.192,
+      "routeOffsetM": 27,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2002735"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2002735"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2002880",
+      "name": "A5 Towcester Cafe",
+      "town": "Towcester",
+      "lat": 52.1321849,
+      "lng": -0.9893798,
+      "routeKm": 64.267,
+      "routeOffsetM": 35,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2002880"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2002880"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2002898",
+      "name": "Ten Hands Cafe Bars Ltd",
+      "town": "Towcester",
+      "lat": 52.1319091,
+      "lng": -0.9886702,
+      "routeKm": 64.322,
+      "routeOffsetM": 12,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2002898"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2002898"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://www.tenhands.co.uk/"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-2003445",
+      "name": "Fabrice Cafe Brasserie",
+      "town": "Towcester",
+      "lat": 52.1316533,
+      "lng": -0.9884118,
+      "routeKm": 64.355,
+      "routeOffsetM": 11,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2003445"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2003445"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2003325",
+      "name": "Hobbs Coffee Bar",
+      "town": "Towcester",
+      "lat": 52.1265872,
+      "lng": -0.9929684,
+      "routeKm": 64.526,
+      "routeOffsetM": 598,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2003325"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2003325"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2002469",
+      "name": "Riverside Community Cafe",
+      "town": "Towcester",
+      "lat": 52.1299849,
+      "lng": -0.9871178,
+      "routeKm": 64.548,
+      "routeOffsetM": 49,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2002469"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2002469"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-2003185",
+      "name": "Moorgate Farm Shop and Cafe",
+      "town": "Potterspury",
+      "lat": 52.0887105,
+      "lng": -0.9081928,
+      "routeKm": 71.681,
+      "routeOffsetM": 112,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2003185"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2003185"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "super-sausage-cafe-candidate",
+      "name": "Super Sausage Café",
+      "town": "Potterspury",
+      "lat": 52.0872916,
+      "lng": -0.9078509,
+      "routeKm": 71.807,
+      "routeOffsetM": 16,
+      "coordinateNote": "Uses the original user-supplied route meeting pin beside this café, not a verified entrance. The landmark notes place the café about 22 m from that pin.",
+      "sources": [
+        {
+          "label": "Existing shared route meeting pin",
+          "url": "https://www.google.com/maps/d/viewer?mid=1fFhAcQkyqY84feHYgWFf6A7zw5k4A0w"
+        },
+        {
+          "label": "Food Standards Agency café listing",
+          "url": "https://ratings.food.gov.uk/business/1540930/super-sausage-cafe"
+        }
+      ],
+      "evidence": "Existing planned meeting landmark identifies the café, corroborated by a public business listing. No precise toilet-door pin or primary current café hours were obtained."
+    },
+    {
+      "id": "cherry-lane-roman-way",
+      "name": "Cherry Lane · Roman Way",
+      "town": "Potterspury",
+      "lat": 52.0745205,
+      "lng": -0.8867917,
+      "routeKm": 73.8,
+      "routeOffsetM": 67,
+      "coordinateNote": "Garden-centre pin from the operator’s own Google Maps link; find the signed entrance.",
+      "sources": [
+        {
+          "label": "Operator facilities and map",
+          "url": "https://www.cherry-lane.co.uk/pages/cherry-lane-roman-way"
+        },
+        {
+          "label": "Café service and menu",
+          "url": "https://www.wellingtonscafe.co.uk/"
+        },
+        {
+          "label": "Food Standards Agency business location",
+          "url": "https://ratings.food.gov.uk/business/2003322"
+        }
+      ],
+      "evidence": "Operator page explicitly lists customer toilets and baby change, and the store hours. Sunday browsing begins at 10:00, but use the published trading opening of 10:30."
+    },
+    {
+      "id": "cafe-fsa-132930",
+      "name": "Bean in Stony",
+      "town": "Stony Stratford",
+      "lat": 52.0574798583984,
+      "lng": -0.854285001754761,
+      "routeKm": 76.853,
+      "routeOffsetM": 22,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/132930"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/132930"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://beaninstony.co.uk/contact"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-1630597",
+      "name": "No.8 Caffe",
+      "town": "Stony Stratford",
+      "lat": 52.0570679,
+      "lng": -0.8540604,
+      "routeKm": 76.896,
+      "routeOffsetM": 47,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1630597"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1630597"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1841132",
+      "name": "Tots & Dots Play Cafe",
+      "town": "Stony Stratford",
+      "lat": 52.0571471,
+      "lng": -0.8529645,
+      "routeKm": 76.945,
+      "routeOffsetM": 10,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1841132"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1841132"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1907357",
+      "name": "Mile Zero Coffee Ltd",
+      "town": "Stony Stratford",
+      "lat": 52.0567729,
+      "lng": -0.8529461,
+      "routeKm": 76.974,
+      "routeOffsetM": 20,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1907357"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1907357"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "costa-stony-stratford",
+      "name": "Costa · Stony Stratford",
+      "town": "Stony Stratford",
+      "lat": 52.056603,
+      "lng": -0.852517,
+      "routeKm": 77,
+      "routeOffsetM": 15,
+      "coordinateNote": "Coordinates and regular hours from Costa’s official structured data.",
+      "sources": [
+        {
+          "label": "Costa store and amenities",
+          "url": "https://www.costa.co.uk/stores/stony-stratford"
+        },
+        {
+          "label": "Food Standards Agency business location",
+          "url": "https://ratings.food.gov.uk/business/139195"
+        }
+      ],
+      "evidence": "Official Costa page lists Disabled Toilets and baby changing. Its HTML JSON-LD gives the weekly hours and exact shop coordinates, read on 2026-11-14."
+    },
+    {
+      "id": "cafe-fsa-2007994",
+      "name": "No 59 Coffee House",
+      "town": "Stony Stratford",
+      "lat": 52.0574293,
+      "lng": -0.8477938,
+      "routeKm": 77.147,
+      "routeOffsetM": 267,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/2007994"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/2007994"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-107285",
+      "name": "Macintyre Coffee Shop",
+      "town": "Great Holm",
+      "lat": 52.031633,
+      "lng": -0.793225,
+      "routeKm": 81.992,
+      "routeOffsetM": 184,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/107285"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/107285"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://www.macintyrecharity.org/shops/great-holm-cafe/"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made. Published venue hours are used only to test whether the café could be open at arrival; WC availability is unconfirmed."
+    },
+    {
+      "id": "cafe-fsa-1733645",
+      "name": "Costa Coffee",
+      "town": "Milton Keynes",
+      "lat": 52.0095763,
+      "lng": -0.7314045,
+      "routeKm": 86.931,
+      "routeOffsetM": 441,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1733645"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1733645"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1694034",
+      "name": "Elia Cafe",
+      "town": "Bletchley",
+      "lat": 52.0016991,
+      "lng": -0.7319451,
+      "routeKm": 87.466,
+      "routeOffsetM": 279,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1694034"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1694034"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1100907",
+      "name": "Costa Coffee Ltd",
+      "town": "Bletchley",
+      "lat": 52.0032178,
+      "lng": -0.7250328,
+      "routeKm": 87.793,
+      "routeOffsetM": 94,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1100907"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1100907"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "starbucks-bletchley",
+      "name": "Starbucks · Bletchley",
+      "town": "Bletchley",
+      "lat": 52.00076,
+      "lng": -0.72386,
+      "routeKm": 88,
+      "routeOffsetM": 88,
+      "coordinateNote": "Coordinates from the official Starbucks store’s page data.",
+      "sources": [
+        {
+          "label": "Starbucks store",
+          "url": "https://www.starbucks.co.uk/store-locator/71506-302824/bletchley-watling-street-dt"
+        },
+        {
+          "label": "Food Standards Agency business location",
+          "url": "https://ratings.food.gov.uk/business/1690986"
+        }
+      ]
+    },
+    {
+      "id": "cafe-fsa-132917",
+      "name": "Mister Teas Cafe",
+      "town": "Bletchley",
+      "lat": 51.996723,
+      "lng": -0.720199,
+      "routeKm": 88.472,
+      "routeOffsetM": 332,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/132917"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/132917"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "gridserve-dobbies-mk",
+      "name": "GRIDSERVE · Dobbies Milton Keynes",
+      "town": "Little Brickhill",
+      "lat": 51.996469,
+      "lng": -0.709562,
+      "routeKm": 89.108,
+      "routeOffsetM": 40,
+      "coordinateNote": "public charger directory pin",
+      "sources": [
+        {
+          "label": "GRIDSERVE",
+          "url": "https://www.gridserve.com/two-new-electric-retail-hubs-open-at-dobbies-locations/"
+        },
+        {
+          "label": "Open Charge Map",
+          "url": "https://openchargemap.org/poi/details/280794"
+        },
+        {
+          "label": "Food Standards Agency business location",
+          "url": "https://ratings.food.gov.uk/business/136826"
+        },
+        {
+          "label": "Dobbies Milton Keynes venue and restaurant hours",
+          "url": "https://www.dobbies.com/Milton-Keynes"
+        },
+        {
+          "label": "Dobbies Milton Keynes accessible toilet facilities",
+          "url": "https://events.dobbies.com/event-detail/?e=4331&f=20261101&r=v&v=25"
+        }
+      ],
+      "evidence": "Dobbies Milton Keynes official venue page publishes separate store/restaurant hours; the operator’s Milton Keynes coach-booking page lists accessible toilets."
+    },
+    {
+      "id": "starbucks-checkley",
+      "name": "Starbucks · Checkley Wood",
+      "lat": 51.95581,
+      "lng": -0.62961,
+      "routeKm": 96.4,
+      "routeOffsetM": 55,
+      "coordinateNote": "Coordinates from the official Starbucks store’s page data.",
+      "sources": [
+        {
+          "label": "Starbucks store",
+          "url": "https://www.starbucks.co.uk/store-locator/82843-311216/checkley-wood---a5"
+        },
+        {
+          "label": "Food Standards Agency business location",
+          "url": "https://ratings.food.gov.uk/business/1691157"
+        }
+      ]
+    },
+    {
+      "id": "cafe-fsa-1576109",
+      "name": "Esquires Coffee",
+      "town": "Houghton Regis",
+      "lat": 51.9110285,
+      "lng": -0.5416782,
+      "routeKm": 104.136,
+      "routeOffsetM": 775,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1576109"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1576109"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-450666",
+      "name": "Tony's Cafe",
+      "town": "Dunstable",
+      "lat": 51.892757,
+      "lng": -0.530106,
+      "routeKm": 105.771,
+      "routeOffsetM": 420,
+      "coordinateNote": "Business-location coordinates published by the Food Standards Agency / local authority. This is not a verified toilet entrance; straight-line route offset is not a measured walking detour.",
+      "sources": [
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/450666"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/450666"
+        }
+      ],
+      "evidence": "Current public business-register record identifies this café/coffee venue at the mapped address; no customer-toilet claim is made."
+    },
+    {
+      "id": "cafe-fsa-1803345",
+      "name": "The Depot cafés · Yellow Bourbon, Reading Tree, Board Room & Cloud Space",
+      "town": "Weedon",
+      "lat": 52.2307656,
+      "lng": -1.0863757,
+      "routeKm": 50.451,
+      "routeOffsetM": 353,
+      "coordinateNote": "The Food Standards Agency publishes the same site coordinates for Yellow Bourbon, Reading Tree and Cloud Space. One named Depot café-site marker avoids overlapping pins; this is not a verified entrance. Follow the signed buildings.",
+      "sources": [
+        {
+          "label": "The Depot: Reading Tree café and hours",
+          "url": "https://thedepot.directory/shops/the-reading-tree"
+        },
+        {
+          "label": "The Depot: Board Room café and hours",
+          "url": "https://thedepot.directory/shops/the-board-room"
+        },
+        {
+          "label": "The Depot: Cloud Space café and hours",
+          "url": "https://thedepot.directory/shops/the-cloud-space"
+        },
+        {
+          "label": "FSA Reading Tree business coordinates",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1472080"
+        },
+        {
+          "label": "FSA Cloud Space business coordinates",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1423624"
+        },
+        {
+          "label": "Food Standards Agency business listing and map",
+          "url": "https://ratings.food.gov.uk/business/1803345"
+        },
+        {
+          "label": "Published business coordinates (FSA API)",
+          "url": "https://api.ratings.food.gov.uk/Establishments/1803345"
+        },
+        {
+          "label": "Official venue hours",
+          "url": "https://thedepot.directory/shops/yellow-bourbon-coffee-roasters"
+        }
+      ],
+      "evidence": "The Depot operator lists four café venues, buildings and weekly hours. FSA supplies their shared site coordinate; no customer WC provision is confirmed."
+    }
+  ],
+  "groupedDepotHoursNote": "The Depot marker combines advertised café opening intervals; it does not claim that customer toilets exist. The constituent venues and each schedule are named in access text.",
+  "existingSharedSiteNote": "The pre-existing Starbucks Checkley and Checkley Wood reported-WC/charger records retain separate access evidence and original stable IDs. Both now have toiletSiteId=checkley-wood-services so the map can render one site marker while details preserve the café and reported-WC conditions."
+}

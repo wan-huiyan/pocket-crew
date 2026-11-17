@@ -1,0 +1,41 @@
+{
+  "checkedOn": "2026-11-13",
+  "crew": {"names": "Graham & the family crew"},
+  "tracker": {
+    "url": "https://track.trail.live/event/escapefrommeriden",
+    "raceNumber": null,
+    "participants": [{"id":"emily","name":"Emily Simmons","bib":"247"},{"id":"jeff","name":"Jeff Simmons","bib":"133"}],
+    "filterInstructions": "Open Participants, search Simmons to see Emily 247 and Jeff 133, then tap their stars and use favourites-only. Favourites are saved in that tracker browser."
+  },
+  "stops": [
+    {
+      "id": "mfg-coventry", "kind": "charger", "title": "MFG EV Power · Coventry", "operator": "MFG", "siteName": "Rugby Road / Willenhall Lane",
+      "lat": 52.398503, "lng": -1.440933, "routeKm": 17.3, "offsetM": 17,
+      "address": "Willenhall Lane, Coventry CV3 2EA", "pinNote": "Charger location from MFG’s official data.",
+      "hours": "Open 24 hours", "accessCaution": false, "hoursDetail": "MFG lists 24-hour station opening and charging access. Check live charger availability before you head over.",
+      "charging": "CCS up to 150 kW", "parking": "Follow the forecourt and charging-bay signs.",
+      "mapQuery": "MFG EV Power Rugby Road Willenhall Lane Coventry CV3 2EA", "operatorUrl": "https://www.motorfuelgroup.com/ev-power/",
+      "sources": [{"label":"MFG station details","url":"https://www.motorfuelgroup.com/locations/rugby-road-fs674/"},{"label":"MFG charger data","url":"https://opendata.motorfuelgroup.net/locations"}]
+    },
+    {
+      "id": "osprey-daventry", "kind": "charger", "title": "Osprey · Bowen Square", "operator": "Osprey", "siteName": "Daventry · near Costa & Waitrose",
+      "lat": 52.256684, "lng": -1.161572, "routeKm": 44.4, "offsetM": 98,
+      "address": "Bowen Square, Daventry NN11 4DR", "pinNote": "Approximate charger pin from Open Charge Map; use the signed car-park entrance.",
+      "hours": "Car park 05:00–23:45", "accessCaution": true, "hoursDetail": "The venue lists these car-park hours, even though the charger screenshot says 24/7. Confirm access before relying on an overnight charge.",
+      "charging": "Check connector & live availability in Osprey", "parking": "The venue advertises 2 hours’ free parking. Check the signs and any charging-bay conditions.",
+      "mapQuery": "Osprey Charging Bowen Square Daventry NN11 4DR", "operatorUrl": "https://www.ospreycharging.co.uk/find-our-ev-charging-stations",
+      "sources": [{"label":"Bowen Square access & parking","url":"https://mbowensquare.co.uk/"},{"label":"Approximate charger map pin","url":"https://openchargemap.io/poi/details/259943"}]
+    },
+    {
+      "id": "watermeadows", "kind": "parkrun", "title": "Watermeadows parkrun", "siteName": "Towcester · an optional crew adventure",
+      "lat": 52.13458, "lng": -0.988391, "routeKm": 64.3, "offsetM": 185,
+      "address": "The Watermeadows, Northampton Road, Towcester", "pinNote": "Official parkrun event pin. This is not a driving or parking destination.",
+      "startAt": "2026-11-14T09:00:00Z", "timeLabel": "Saturday 14 Nov · 09:00 GMT", "startTimeLabel": "09:00", "dayLabel": "Saturday 14 Nov · GMT", "eventStatus": "Tentative — check official updates",
+      "hoursDetail": "Graham & the family crew’s possible parkrun, depending on where Emily & Jeff are and when they next need support. The 14 November event’s cancellation status has not been verified.",
+      "parking": "Use Tove long-stay car park, then follow the official course directions to the start. The event pin is not a driving or parking destination.",
+      "parkingQuery": "Tove Long Stay Car Park Towcester", "mapQuery": "Watermeadows parkrun Towcester",
+      "operatorUrl": "https://www.parkrun.org.uk/watermeadows/",
+      "sources": [{"label":"Official course & parking","url":"https://www.parkrun.org.uk/watermeadows/course/"},{"label":"Event news","url":"https://www.parkrun.org.uk/watermeadows/news/"},{"label":"parkrun cancellations","url":"https://www.parkrun.org.uk/cancellations/"},{"label":"Official event map data","url":"https://images.parkrun.com/events.json"}]
+    }
+  ]
+}

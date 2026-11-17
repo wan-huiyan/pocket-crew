@@ -1,0 +1,72 @@
+{
+  "start": {
+    "preview": "assets/poster-coffee.webp",
+    "download": "assets/poster-coffee.png"
+  },
+  "km-60": {
+    "preview": "assets/surprises/77d6f60854acf41fa503a91b.webp",
+    "download": "assets/surprises/4cbaac3fe6a293787fa02fd5.png",
+    "width": 1200,
+    "height": 1800
+  },
+  "km-70": {
+    "preview": "assets/surprises/a756787213d1fc2b7c955c60.webp",
+    "download": "assets/surprises/491e02ea89fc531e68ed2ec8.png",
+    "width": 1200,
+    "height": 1800
+  },
+  "km-80": {
+    "preview": "assets/surprises/emily-crew-80km-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-80km-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "km-90": {
+    "preview": "assets/surprises/emily-crew-90km-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-90km-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "gold": {
+    "preview": "assets/surprises/emily-crew-gold-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-gold-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "km-50": {
+    "preview": "assets/surprises/c239a8f107d452a5686f9e31.webp",
+    "download": "assets/surprises/c239a8f107d452a5686f9e31.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "km-100": {
+    "preview": "assets/surprises/emily-crew-100km-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-100km-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "marathon": {
+    "preview": "assets/surprises/6ac4f9e2b815d307c86e0a42.webp",
+    "download": "assets/surprises/6ac4f9e2b815d307c86e0a42.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "km-110": {
+    "preview": "assets/surprises/emily-crew-110km-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-110km-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "km-120": {
+    "preview": "assets/surprises/emily-crew-120km-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-120km-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  },
+  "km-123": {
+    "preview": "assets/surprises/emily-crew-123km-2026-walk-v3.webp",
+    "download": "assets/surprises/emily-crew-123km-2026-walk-v3.png",
+    "width": 1024,
+    "height": 1536
+  }
+}

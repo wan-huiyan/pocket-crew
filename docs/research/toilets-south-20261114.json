@@ -1,0 +1,932 @@
+[
+  {
+    "id": "tesco-towcester",
+    "name": "Tesco · Towcester",
+    "kinds": [
+      "toilet"
+    ],
+    "lat": 52.138621475779765,
+    "lng": -0.9946204196330655,
+    "address": "Old Tiffield Road, Towcester NN12 6PF",
+    "hours": "Mon–Sat 06:00–23:00; Sun 10:00–16:00",
+    "hoursLabel": "Store Mon–Sat 06:00–23:00; Sun 10:00–16:00 · customer toilet",
+    "access": "Standard toilets and parking listed. EV charging is listed; check Pod for connector, power and availability. Facilities can have different hours from the shop.",
+    "coordinateNote": "Store coordinates published in Tesco’s own page; entrance and charging bays may differ.",
+    "sources": [
+      {
+        "label": "Tesco store and facilities",
+        "url": "https://www.tesco.com/store-locator/towcester/old-tiffield-rd"
+      },
+      {
+        "label": "Pod charging",
+        "url": "https://go.podenergy.com/"
+      }
+    ],
+    "checkedOn": "2026-11-14",
+    "town": "Towcester",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "10:00",
+            "16:00"
+          ]
+        ],
+        "1": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "2": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "3": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "4": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "5": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ],
+        "6": [
+          [
+            "06:00",
+            "23:00"
+          ]
+        ]
+      }
+    },
+    "mapLabel": "Tesco · Towcester",
+    "phone": null,
+    "evidence": "Tesco explicitly lists standard and accessible toilets. Published hours are store hours; Tesco warns facilities may differ."
+  },
+  {
+    "id": "cherry-lane-roman-way",
+    "name": "Cherry Lane · Roman Way",
+    "kinds": [
+      "toilet"
+    ],
+    "lat": 52.0745205,
+    "lng": -0.8867917,
+    "address": "8 Watling Street, Potterspury NN12 7QN",
+    "hours": "Store Mon–Sat 09:00–17:30; Sun 10:30–16:30",
+    "hoursLabel": "Store Mon–Sat 09:00–17:30; Sun 10:30–16:30",
+    "access": "Customer toilets and baby change are confirmed by the garden-centre operator. Free customer parking and Wellington’s café are also listed. Separate toilet-door times are not published; café service times can differ.",
+    "coordinateNote": "Garden-centre pin from the operator’s own Google Maps link; find the signed entrance.",
+    "sources": [
+      {
+        "label": "Operator facilities and map",
+        "url": "https://www.cherry-lane.co.uk/pages/cherry-lane-roman-way"
+      },
+      {
+        "label": "Café service and menu",
+        "url": "https://www.wellingtonscafe.co.uk/"
+      }
+    ],
+    "checkedOn": "2026-11-14",
+    "town": "Potterspury",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "10:30",
+            "16:30"
+          ]
+        ],
+        "1": [
+          [
+            "09:00",
+            "17:30"
+          ]
+        ],
+        "2": [
+          [
+            "09:00",
+            "17:30"
+          ]
+        ],
+        "3": [
+          [
+            "09:00",
+            "17:30"
+          ]
+        ],
+        "4": [
+          [
+            "09:00",
+            "17:30"
+          ]
+        ],
+        "5": [
+          [
+            "09:00",
+            "17:30"
+          ]
+        ],
+        "6": [
+          [
+            "09:00",
+            "17:30"
+          ]
+        ]
+      }
+    },
+    "mapLabel": "Cherry Lane · Roman Way",
+    "phone": "01908543902",
+    "evidence": "Operator page explicitly lists customer toilets and baby change, and the store hours. Sunday browsing begins at 10:00, but use the published trading opening of 10:30."
+  },
+  {
+    "id": "silver-street-toilets",
+    "name": "Silver Street public toilets",
+    "kinds": [
+      "toilet"
+    ],
+    "lat": 52.057301,
+    "lng": -0.85343,
+    "address": "Silver Street, Stony Stratford",
+    "hours": "Opening hours not verified",
+    "hoursLabel": "Opening hours not verified",
+    "access": "Public toilet confirmed by The Parks Trust. Opening hours, price and any key/access requirements remain unconfirmed; check the door. Do not label open from an ETA alone.",
+    "coordinateNote": "Approximate building location from the Geograph photograph’s object coordinates, independently paired with the Parks Trust facility listing.",
+    "sources": [
+      {
+        "label": "Parks Trust confirms facility",
+        "url": "https://www.theparkstrust.com/find-a-park/millfield/"
+      },
+      {
+        "label": "Geograph building location",
+        "url": "https://commons.wikimedia.org/wiki/File:Public_toilets_on_Silver_Street,_Stony_Stratford_-_geograph.org.uk_-_6521798.jpg"
+      }
+    ],
+    "checkedOn": "2026-11-14",
+    "town": "Stony Stratford",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "unknown",
+      "weekly": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null
+      }
+    },
+    "mapLabel": "Silver Street public toilets",
+    "phone": null,
+    "evidence": "The Parks Trust Millfield page confirms the nearest public toilets are on Silver Street and gives what3words centuries.tunes.servicing. No current opening schedule was found."
+  },
+  {
+    "id": "costa-stony-stratford",
+    "name": "Costa · Stony Stratford",
+    "kinds": [
+      "toilet"
+    ],
+    "lat": 52.056603,
+    "lng": -0.852517,
+    "address": "37 High Street, Stony Stratford MK11 1AA",
+    "hours": "Mon–Fri 07:30–16:30; Sat 07:30–17:00; Sun 08:30–16:30",
+    "hoursLabel": "Mon–Fri 07:30–16:30; Sat 07:30–17:00; Sun 08:30–16:30",
+    "access": "Customer facility; the operator lists an accessible toilet and baby changing. Opening filter uses café hours, not a separate toilet-door schedule. Ask staff about access.",
+    "coordinateNote": "Coordinates and regular hours from Costa’s official structured data.",
+    "sources": [
+      {
+        "label": "Costa store and amenities",
+        "url": "https://www.costa.co.uk/stores/stony-stratford"
+      }
+    ],
+    "checkedOn": "2026-11-14",
+    "town": "Stony Stratford",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "08:30",
+            "16:30"
+          ]
+        ],
+        "1": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "2": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "3": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "4": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "5": [
+          [
+            "07:30",
+            "16:30"
+          ]
+        ],
+        "6": [
+          [
+            "07:30",
+            "17:00"
+          ]
+        ]
+      }
+    },
+    "mapLabel": "Costa · Stony Stratford",
+    "phone": "03330035883",
+    "evidence": "Official Costa page lists Disabled Toilets and baby changing. Its HTML JSON-LD gives the weekly hours and exact shop coordinates, read on 2026-11-14."
+  },
+  {
+    "id": "sainsburys-shenley",
+    "name": "Sainsbury’s · Shenley Church End",
+    "kinds": [
+      "toilet"
+    ],
+    "lat": 52.027404,
+    "lng": -0.790164,
+    "address": "2 Engaine Drive, Milton Keynes MK5 6JU",
+    "hours": "Mon–Sat 07:00–22:00; Sun 10:00–16:00",
+    "hoursLabel": "Mon–Sat 07:00–22:00; Sun 10:00–16:00",
+    "access": "Customer toilet. The official listing confirms accessible toilets and parking. Opening filter uses store hours; individual facilities can close earlier.",
+    "coordinateNote": "Coordinates and hours from the official Argos store’s embedded structured data.",
+    "sources": [
+      {
+        "label": "Official store facilities",
+        "url": "https://www.argos.co.uk/stores/6395-shenley-church-end-sainsburys-collection-point"
+      },
+      {
+        "label": "Sainsbury’s store",
+        "url": "https://stores.sainsburys.co.uk/2323/shenley-church-end"
+      }
+    ],
+    "checkedOn": "2026-11-14",
+    "town": "Shenley Church End",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "10:00",
+            "16:00"
+          ]
+        ],
+        "1": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "2": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "3": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "4": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "5": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ],
+        "6": [
+          [
+            "07:00",
+            "22:00"
+          ]
+        ]
+      }
+    },
+    "mapLabel": "Sainsbury’s · Shenley Church End",
+    "phone": "01908489352",
+    "evidence": "Official Argos/Sainsbury’s page confirms accessible toilets. HTML JSON-LD and Yext-signed core snapshot explicitly give Mon–Sat 07:00–22:00 and Sun 10:00–16:00 plus the coordinates; re-read 2026-11-14."
+  },
+  {
+    "id": "tesco-bletchley-toilets",
+    "name": "Tesco Extra · Bletchley toilets",
+    "mapLabel": "Tesco Bletchley",
+    "town": "Bletchley / Fenny Stratford",
+    "lat": 52.00073221883719,
+    "lng": -0.725414733775136,
+    "address": "Tesco Stores Ltd, Watling Street, Bletchley, Milton Keynes MK1 1DD",
+    "hours": "Mon–Sat 06:00–24:00; Sun 10:00–16:00",
+    "hoursLabel": "Store Mon–Sat 06:00–midnight; Sun 10:00–16:00 · customer toilet",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "10:00",
+            "16:00"
+          ]
+        ],
+        "1": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "06:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "access": "Tesco explicitly lists toilets, accessible toilets, step-free standard toilets and baby changing. Separate toilet-door times are not published; the operator says facilities may have different hours from the store. Use the supermarket, not the petrol-station kiosk.",
+    "coordinateNote": "Store coordinates from the official Tesco page’s GeoCoordinates microdata and js-map-data, read 2026-11-14. Building pin, not the exact toilet entrance.",
+    "evidence": "Official store page publishes the weekly store hours and specific toilet facilities; AccessAble’s indexed survey places toilets on the right near the bottom of the travelator.",
+    "sources": [
+      {
+        "label": "Tesco official store, facilities and coordinate data",
+        "url": "https://www.tesco.com/store-locator/milton-keynes/tesco-stores-ltd-watling-street"
+      },
+      {
+        "label": "Tesco-linked AccessAble accessibility survey",
+        "url": "https://www.accessable.co.uk/tesco/access-guides/tesco-milton-keynes-bletchley-extra"
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "phone": null
+  },
+  {
+    "id": "bletchley-leisure-toilets",
+    "name": "Bletchley Leisure Centre",
+    "mapLabel": "Bletchley Leisure",
+    "town": "Bletchley",
+    "lat": 51.99643,
+    "lng": -0.72667,
+    "address": "Princes Way, Bletchley, Milton Keynes MK2 2HQ",
+    "phone": "01908377251",
+    "hours": "Mon–Fri 06:00–22:00; Sat/Sun 07:00–19:00",
+    "hoursLabel": "Centre Mon–Fri 06:00–22:00; weekends 07:00–19:00 · ask reception",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ],
+        "1": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "2": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "3": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "4": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "5": [
+          [
+            "06:00",
+            "22:00"
+          ]
+        ],
+        "6": [
+          [
+            "07:00",
+            "19:00"
+          ]
+        ]
+      }
+    },
+    "access": "The operator and council confirm accessible toilets. This is a leisure-centre customer facility: ask reception whether non-participants may use it. Toilet-door hours are not published separately. Bank-holiday hours differ between council and operator pages, so confirm on those dates.",
+    "coordinateNote": "Approximate leisure-centre building centre from OpenStreetMap way 179457678 via Mapcarta; not the toilet door. Do not use the Google iframe viewport centre as the building coordinate.",
+    "evidence": "Current More Leisure accessibility page explicitly confirms a level-access toilet with grab rails and shower. Council corroborates toilets and regular opening times.",
+    "sources": [
+      {
+        "label": "Operator accessibility and venue hours",
+        "url": "https://www.moreleisure.com/bletchley-leisure-centre/accessibility/"
+      },
+      {
+        "label": "Milton Keynes Council venue listing",
+        "url": "https://www.milton-keynes.gov.uk/leisure-sport-and-community-activity/leisure-facilities/bletchley-leisure-centre"
+      },
+      {
+        "label": "OpenStreetMap building pin via Mapcarta",
+        "url": "https://mapcarta.com/W179457678"
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14"
+  },
+  {
+    "id": "albert-street-bletchley-toilets",
+    "name": "Albert Street public toilets",
+    "mapLabel": "Albert Street WC",
+    "town": "Bletchley",
+    "address": "Albert Street, Bletchley MK2 2UG",
+    "phone": "01908649469",
+    "hours": "Mon–Sat 08:00–18:00; Sunday opening not confirmed; closed bank holidays",
+    "hoursLabel": "Mon–Sat 08:00–18:00 · Sunday to confirm",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "toilet",
+      "weekly": {
+        "0": null,
+        "1": [
+          [
+            "08:00",
+            "18:00"
+          ]
+        ],
+        "2": [
+          [
+            "08:00",
+            "18:00"
+          ]
+        ],
+        "3": [
+          [
+            "08:00",
+            "18:00"
+          ]
+        ],
+        "4": [
+          [
+            "08:00",
+            "18:00"
+          ]
+        ],
+        "5": [
+          [
+            "08:00",
+            "18:00"
+          ]
+        ],
+        "6": [
+          [
+            "08:00",
+            "18:00"
+          ]
+        ]
+      },
+      "bankHolidaysClosed": true
+    },
+    "access": "Council-operated male/female public toilets. Accessible toilet uses a RADAR key during the same hours. The current council page has an impossible Sunday time (9.30pm–4.30pm); an older cleaning specification gives 09:30–16:30, but the Sunday filter remains unknown until the council clarifies. Refurbishment completed February 2025.",
+    "coordinateNote": "No sufficiently precise toilet-building coordinate verified. Do not publish a new map marker by guessing the street/postcode centre. Research-only record pending a confirmed pin.",
+    "evidence": "Current council page confirms Monday–Saturday hours and RADAR access; council news confirms reopening after refurbishment. Sunday schedule deliberately left null due to current-page typo.",
+    "sources": [
+      {
+        "label": "Council public-toilet page",
+        "url": "https://www.bletchleyfennystratford-tc.gov.uk/albert-street-public-toilets"
+      },
+      {
+        "label": "Council refurbishment completed February 2025",
+        "url": "https://www.bletchleyfennystratford-tc.gov.uk/newly-refurbished-albert-street-toilets-now-open"
+      },
+      {
+        "label": "Older council cleaning specification with Sunday times",
+        "url": "https://www.bletchleyfennystratford-tc.gov.uk/sites/default/files/2022-10/Cleaning%20Specification%20Albert%20Street%20Toilets%202022.pdf"
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14"
+  },
+  {
+    "id": "shell-milton-keynes-south-toilet",
+    "name": "Shell Milton Keynes South",
+    "mapLabel": "Shell · Little Brickhill",
+    "town": "Little Brickhill / Bletchley",
+    "lat": 51.991584,
+    "lng": -0.698838,
+    "address": "Watling Street, Milton Keynes MK17 9NE",
+    "phone": "01908270029",
+    "hours": "Shop and forecourt listed 24 hours daily; separate toilet-door hours unconfirmed",
+    "hoursLabel": "24-hour shop listing · toilet access to check",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "1": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "access": "Official Shell locator explicitly lists a toilet and separately lists the shop open 24 hours daily. Toilet-door access can still be restricted; ask or call staff, particularly overnight. Use the signed pedestrian entrance; a short map offset is not a verified walking approach.",
+    "coordinateNote": "Official Shell locator gives latitude 51.991584 and longitude -0.698838. Station pin rather than toilet door.",
+    "evidence": "Unlike a fuel-only 24-hour listing, this operator page separately gives both Shop Hours and Forecourt Hours as 00:00–23:59 daily and lists Toilet.",
+    "sources": [
+      {
+        "label": "Shell official station, toilet, shop hours and coordinates",
+        "url": "https://find.shell.com/gb/fuel/12038545-shell-milton-keynes-south"
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14"
+  },
+  {
+    "id": "mcdonalds-little-brickhill-toilet",
+    "name": "McDonald’s · Little Brickhill",
+    "mapLabel": "McDonald’s Brickhill",
+    "town": "Little Brickhill",
+    "lat": 51.991932,
+    "lng": -0.698971,
+    "address": "Little Brickhill, Watling Street, Milton Keynes MK17 9DN",
+    "phone": "01908274651",
+    "hours": "Restaurant and lobby listed 24 hours daily; separate toilet-door hours unconfirmed",
+    "hoursLabel": "24-hour restaurant/lobby · customer toilet to check",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "1": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "2": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "3": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "4": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "5": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ],
+        "6": [
+          [
+            "00:00",
+            "24:00"
+          ]
+        ]
+      }
+    },
+    "access": "Freetest’s Milton Keynes local venue directory explicitly lists the public toilet at this McDonald’s. The official McDonald’s page lists the restaurant/lobby as 24 hours and baby changing in its data, but does not publish separate toilet access hours. Customer use: confirm with staff, especially overnight.",
+    "coordinateNote": "Coordinates read directly from data-restaurant-details-resp in the official McDonald’s page on 2026-11-14. Restaurant pin; immediately beside Shell Milton Keynes South.",
+    "evidence": "Official restaurant and lobby schedule, not merely drive-through hours. Toilet existence is supported by the Freetest venue directory rather than a current restaurant toilet-access guarantee. Consider combining nearby venue choices to avoid duplicate marker clutter.",
+    "sources": [
+      {
+        "label": "McDonald’s official restaurant, lobby hours and coordinates",
+        "url": "https://www.mcdonalds.com/gb/en-gb/location/milton-keynes/milton-keynes-brickhill/little-brickhill/8261409.html"
+      },
+      {
+        "label": "Freetest Milton Keynes local directory lists this public toilet",
+        "url": "https://www.freetest.me/local/milton-keynes/revs-de-cuba-21-savoy-cres"
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14"
+  },
+  {
+    "id": "checkley-wood-toilets",
+    "name": "Checkley Wood services · reported toilets",
+    "mapLabel": "Checkley Wood · check",
+    "town": "Heath and Reach / Checkley Wood",
+    "lat": 51.95581,
+    "lng": -0.62961,
+    "address": "Energy Court, Watling Street, Leighton Buzzard LU7 9LG",
+    "hours": "Toilet opening/access hours not verified. Nearby Starbucks venue: Mon–Sat 06:00–20:00; Sun 07:30–20:00",
+    "hoursLabel": "Toilet hours unconfirmed · ask at café",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "unknown",
+      "weekly": {
+        "0": null,
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "6": null
+      }
+    },
+    "access": "Zapmap lists toilets among the Checkley Wood charging-site facilities, but it does not identify the toilet door, access conditions or opening times. Nearby Starbucks has published café hours; those cannot be assumed to be the toilet hours or 24-hour charging-site access. Check with café/site staff.",
+    "coordinateNote": "Approximate services/café pin retained from the official Starbucks locator data in the existing guide. Exact toilet entrance is unconfirmed; this is a services-level reported facility.",
+    "evidence": "Zapmap record updated October 2026 explicitly lists toilets. Official Starbucks listing supplies venue location and café times only. Keep the toilet opening filter unknown.",
+    "sources": [
+      {
+        "label": "Zapmap reported charging-site facilities",
+        "url": "https://www.zapmap.com/charge-points/leighton-buzzard/5LGSBSR"
+      },
+      {
+        "label": "Starbucks official nearby café location and hours",
+        "url": "https://www.starbucks.co.uk/store-locator/82843-311216/checkley-wood---a5"
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14",
+    "phone": null
+  },
+  {
+    "id": "white-lion-chalk-hill-toilets",
+    "name": "White Lion · Chalk Hill",
+    "mapLabel": "White Lion",
+    "town": "Chalk Hill / Houghton Regis",
+    "lat": 51.9018460492,
+    "lng": -0.545516387853,
+    "address": "Chalk Hill, Dunstable, Bedfordshire LU6 1RS",
+    "phone": "01582853959",
+    "hours": "Mon 12:00–20:00; Tue–Sat 12:00–23:00; Sun 12:00–22:00",
+    "hoursLabel": "Pub Mon 12:00–20:00; Tue–Sat 12:00–23:00; Sun 12:00–22:00",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "venue",
+      "weekly": {
+        "0": [
+          [
+            "12:00",
+            "22:00"
+          ]
+        ],
+        "1": [
+          [
+            "12:00",
+            "20:00"
+          ]
+        ],
+        "2": [
+          [
+            "12:00",
+            "23:00"
+          ]
+        ],
+        "3": [
+          [
+            "12:00",
+            "23:00"
+          ]
+        ],
+        "4": [
+          [
+            "12:00",
+            "23:00"
+          ]
+        ],
+        "5": [
+          [
+            "12:00",
+            "23:00"
+          ]
+        ],
+        "6": [
+          [
+            "12:00",
+            "23:00"
+          ]
+        ]
+      }
+    },
+    "access": "Pub customer toilet; ask staff about access. Zapmap lists toilets, and a venue event organiser describes a wheelchair-accessible toilet. The schedule is the official pub opening time, not a separate toilet guarantee or EV charging hours.",
+    "coordinateNote": "Exact pub pin from its official website JSON-LD (read 2026-11-14), not the toilet door. At the Chalk Hill end of the planned route.",
+    "evidence": "Operator website confirms weekly pub hours, address, phone and coordinates. Toilet evidence is a charging-site listing and a local event organiser’s access description.",
+    "sources": [
+      {
+        "label": "White Lion official location and opening hours",
+        "url": "https://www.thewhiteliondunstable.com/"
+      },
+      {
+        "label": "Zapmap White Lion facilities including toilets",
+        "url": "https://www.zapmap.com/charge-points/dunstable/43up3m2"
+      },
+      {
+        "label": "Event organiser access information at White Lion",
+        "url": "https://whatsupbeds.com/events?after=&before%5Bdate%5D=2025-08-19&before%5Bid%5D=11628&category_ids=&date=&published=true&suitability_ids=&time_of_day=&type=published&week="
+      }
+    ],
+    "kinds": [
+      "toilet"
+    ],
+    "checkedOn": "2026-11-14"
+  },
+  {
+    "id": "ashton-square-toilets",
+    "name": "Ashton Square public toilets",
+    "kinds": [
+      "toilet"
+    ],
+    "lat": 51.8843972,
+    "lng": -0.5213375,
+    "address": "Ashton Square, Dunstable LU6 3SN",
+    "hours": "Mon–Sat 09:30–17:30; closed Sundays/bank holidays",
+    "hoursLabel": "Mon–Sat 09:30–17:30; closed Sundays/bank holidays",
+    "access": "Council public toilets with male/female facilities, baby changing and an accessible toilet. AccessAble lists RADAR access for the accessible cubicle. Beyond the planned Chalk Hill endpoint; a town-centre backup, not a route stop. Closed Sundays and bank holidays.",
+    "coordinateNote": "Approximate toilet-building pin from Fontavio/OpenStreetMap; facility and access hours verified with Dunstable Town Council.",
+    "sources": [
+      {
+        "label": "Council toilet details",
+        "url": "https://www.dunstable.gov.uk/town-centre/"
+      },
+      {
+        "label": "Approximate map position",
+        "url": "https://fontavio.com/united-kingdom/dunstable/toilets/"
+      },
+      {
+        "label": "Council-linked accessibility guide",
+        "url": "https://www.accessable.co.uk/central-bedfordshire-council/access-guides/ashton-square-car-park-public-toilets"
+      }
+    ],
+    "checkedOn": "2026-11-14",
+    "beyondPlannedEndpoint": true,
+    "town": "Dunstable",
+    "opening": {
+      "timeZone": "Europe/London",
+      "basis": "toilet",
+      "weekly": {
+        "0": [],
+        "1": [
+          [
+            "09:30",
+            "17:30"
+          ]
+        ],
+        "2": [
+          [
+            "09:30",
+            "17:30"
+          ]
+        ],
+        "3": [
+          [
+            "09:30",
+            "17:30"
+          ]
+        ],
+        "4": [
+          [
+            "09:30",
+            "17:30"
+          ]
+        ],
+        "5": [
+          [
+            "09:30",
+            "17:30"
+          ]
+        ],
+        "6": [
+          [
+            "09:30",
+            "17:30"
+          ]
+        ]
+      },
+      "bankHolidaysClosed": true
+    },
+    "mapLabel": "Ashton Square public toilets",
+    "phone": "01582513000",
+    "evidence": "Current town-centre council page explicitly gives toilet hours 09:30–17:30 Mon–Sat. Older AccessAble/council pages give earlier opening times; use the current council schedule. Preserve beyondPlannedEndpoint=true."
+  }
+]

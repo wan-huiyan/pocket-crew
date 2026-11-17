@@ -1,0 +1,40 @@
+<section id="panel-now" data-map-heading tabindex="-1" class="tab-panel map-home poster-home" aria-label="Race map">
+  <div class="poster-hud">
+    <header class="map-header">
+      <button class="map-brand" data-tab-target="now" aria-label="Emily and Jeff's race map"><img src="assets/crow.svg" alt="" width="56" height="56"><span><small>EMILY & JEFF</small><strong>GREAT ESCAPE</strong></span></button>
+      <button class="role-pill" data-tab-target="more" aria-label="Change view and open tools"><span id="map-role-label">Running</span><span aria-hidden="true">⌄</span></button>
+    </header>
+    <div class="poster-race-strip"><span>13–14 NOV 2026</span><button data-tab-target="kit"><span id="poster-clock-label">STARTS IN</span> <strong id="poster-clock">23:59 GMT</strong><span aria-hidden="true"> ›</span></button></div>
+    <div class="map-distance" aria-label="Route distances">
+      <div class="distance-primary"><span class="poster-stat-title">NEXT HELLO IN</span><strong id="map-meet-distance">—</strong><span id="map-meet-caption">waiting for tracker</span></div>
+      <div class="distance-secondary"><div class="distance-stat"><span class="poster-stat-title">ON-FOOT ROUTE</span><strong id="map-route-distance">—</strong><span id="map-route-caption">planned · approx.</span></div><div class="distance-stat distance-crow-stat"><span class="poster-stat-title">CROW FLIGHT</span><strong id="map-crow-distance">—</strong><span id="map-crow-caption">official tracker</span></div></div>
+    </div>
+    <button class="poster-meeting" id="poster-meeting" data-map-action="next-point"><span class="poster-flag" aria-hidden="true">⚑</span><span class="poster-meeting-copy"><small id="map-meet-eyebrow">NEXT MEET-UP</small><strong id="map-next-meet-name">Loading meet-up…</strong><span id="poster-meet-detail" class="poster-meeting-note" hidden></span><span id="map-meet-eta" class="map-meet-eta">ETA · waiting</span><span id="map-ready-by" class="map-ready-by" hidden></span></span><svg class="poster-meeting-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></button>
+    <p id="map-following-stop" class="map-following-stop" hidden></p>
+  </div>
+  <div class="poster-map-stage">
+    <div id="race-map" role="region" aria-label="Route, runners, supporters and next meeting point"></div>
+    <div class="map-follow-row" role="group" aria-label="Map view shortcuts"><button id="map-follow" class="follow-pill" aria-label="Re-centre map and follow runners and the route ahead" title="Automatically following runners and the route ahead"><span class="follow-dot" aria-hidden="true"></span><span id="map-follow-label">Re-centre map</span></button><button id="map-all-stops" class="map-stops-pill supporter-only" data-map-action="all-points" aria-label="Show all stops on the map"><span aria-hidden="true">⚑</span> All stops</button><button id="map-tracking-status" class="tracking-chip" data-tab-target="live" hidden>Connect tracking ›</button></div>
+    <div class="map-control-stack"><button id="map-recenter" class="map-control" aria-label="Re-centre map and follow runners and the route ahead" title="Re-centre map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="7"/><path d="M12 1v6m0 10v6M1 12h6m10 0h6"/></svg></button><button id="map-zoom-in" class="map-control" aria-label="Zoom in">+</button><button id="map-zoom-out" class="map-control" aria-label="Zoom out">−</button></div>
+    <div id="map-notice" class="map-notice" role="status" hidden></div>
+    <div id="map-waiting" class="map-waiting" hidden></div>
+    <div class="poster-map-label" aria-hidden="true">ONE STEP. THEN ANOTHER. <span>♡</span></div>
+  </div>
+  <div class="poster-bottom">
+    <div class="poster-people" aria-label="Runner and supporter status">
+      <button type="button" class="poster-person-card" data-poster-person="emily"><img class="poster-person-cutout" src="assets/avatars-v5/emily.webp" alt=""><span class="poster-person-name"><strong>Emily</strong><span class="person-status-dot" id="poster-emily-dot" aria-hidden="true"></span></span><small id="poster-emily-status">Waiting for first report</small></button>
+      <button type="button" class="poster-person-card" data-poster-person="jeff"><img class="poster-person-cutout" src="assets/avatars-v5/jeff.webp" alt=""><span class="poster-person-name"><strong>Jeff</strong><span class="person-status-dot" id="poster-jeff-dot" aria-hidden="true"></span></span><small id="poster-jeff-status">Awaiting phone location</small></button>
+      <button type="button" class="poster-person-card" data-poster-person="huiyan"><img class="poster-person-cutout" src="assets/avatars-v5/huiyan.webp" alt=""><span class="poster-person-name"><strong>Huiyan</strong><span class="person-status-dot" id="poster-huiyan-dot" aria-hidden="true"></span></span><small id="poster-huiyan-status">Waiting for supporters</small></button>
+      <button type="button" class="poster-person-card" data-poster-person="graham"><img class="poster-person-cutout" src="assets/avatars-v5/graham.webp" alt=""><span class="poster-person-name"><strong>Graham</strong><span class="person-status-dot" id="poster-graham-dot" aria-hidden="true"></span></span><small id="poster-graham-status">Waiting for supporters</small></button>
+      <button type="button" class="poster-person-card" data-poster-person="ben"><img class="poster-person-cutout" src="assets/avatars-v5/ben.webp" alt=""><span class="poster-person-name"><strong>Ben</strong><span class="person-status-dot" id="poster-ben-dot" aria-hidden="true"></span></span><small id="poster-ben-status">Awaiting phone location</small></button>
+    </div>
+    <nav class="runner-dock poster-dock" aria-label="Quick map actions">
+      <button data-map-action="toilets"><span class="wc-symbol" aria-hidden="true">WC</span><strong>Toilets</strong></button>
+      <button data-map-action="next-point"><span class="flag-symbol" aria-hidden="true">⚑</span><strong>Meet-up</strong></button>
+      <button id="map-runner-leaderboard" class="dock-leaderboard" data-tab-target="leaderboard" aria-label="“We are not competitive”"><span class="poster-menu-icon" aria-hidden="true">🏆</span><strong>“We are not<br>competitive”</strong></button>
+
+    </nav>
+    <nav class="supporter-dock supporter-only" aria-label="Support crew map actions"><div class="dock-meeting"><button id="map-meet-title" data-tab-target="meetup">Choose our next hello</button></div><div class="dock-buttons"><a id="map-drive" href="#stops">Meet-up</a><button data-map-action="amenities"><span aria-hidden="true">P · ϟ</span><strong>Nearby</strong></button><button id="map-supporter-leaderboard" class="dock-leaderboard" data-tab-target="leaderboard" aria-label="“We are not competitive”"><span aria-hidden="true">🏆</span><strong>“We are not<br>competitive”</strong></button></div></nav>
+  </div>
+  <aside class="poster-desktop-note" aria-label="A note from your crew"><img src="assets/crow.svg" alt="" width="100" height="100"><p>SOME SIBLINGS<br>JUST GO<br>FOR COFFEE.</p><span>These two went a little further.</span><small>POWERED BY TOFU. CHEERED ON BY US. ♡</small></aside>
+</section>
