@@ -41,12 +41,20 @@ Use the loopback URL printed by the server (normally port 5173). This launches t
 | `db/`, `drizzle/` | D1 schema and migrations |
 | `scripts/` | Build helpers and archive/replay tools |
 | `tests/` | Existing automated verification sources |
-| `skills/` | Status and installation location for the original guide skill |
+| `skills/` | Installable `build-ultra-crew-guide` skill and installation guide |
 | `archive/` | Historical race inputs and provenance; no live database export |
 
 ## The skill behind the guide
 
-The original reusable skill is **`build-ultra-crew-guide`**. Its ZIP package is being prepared for transfer. Once supplied and reviewed for publication, it will be included at `skills/build-ultra-crew-guide/SKILL.md` with its supporting resources. The [status note](skills/README.md) tracks this pending addition; no installable skill is bundled yet.
+**[Install `build-ultra-crew-guide`](skills/README.md)** to plan, adapt, operate or archive your own Pocket Crew-style event guide. Version **1.0.0** includes the original eight reference guides, a read-only source auditor and Codex metadata. The skill installs separately from the application and its artwork.
+
+In Codex, ask:
+
+```text
+Use $skill-installer to install https://github.com/wan-huiyan/pocket-crew/tree/skill-v1.0.0/skills/build-ultra-crew-guide
+```
+
+Then use `$build-ultra-crew-guide` with your event details.
 
 ## Credits and permissions
 

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Pocket Crew Guide Builder"
+  short_description: "Build live and archived ultramarathon crew guides"
+  default_prompt: "Use $build-ultra-crew-guide to adapt Pocket Crew for a new ultramarathon, starting with the event, route, tracker and crew details."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+policy:
+  allow_implicit_invocation: true
