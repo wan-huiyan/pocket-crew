@@ -1,4 +1,4 @@
-# Ultra Crew Support 🐦
+# Pocket Crew 🐦
 
 A little home for runners and their very enthusiastic crew.
 
@@ -23,8 +23,8 @@ The repository preserves the existing artwork, copy and both guide layouts. Race
 Requires Node.js 22.13 or later.
 
 ```sh
-git clone https://github.com/wan-huiyan/ultra-crew-support.git
-cd ultra-crew-support
+git clone https://github.com/wan-huiyan/pocket-crew.git
+cd pocket-crew
 npm run install:ci
 npm run dev
 ```
@@ -46,7 +46,7 @@ Use the loopback URL printed by the server (normally port 5173). This launches t
 
 ## The skill behind the guide
 
-The original reusable skill is intended to live at `skills/ultra-crew-support/SKILL.md`. It was not present in the Site source or the local installed-skill directories at publication time. Its [status note](skills/README.md) records that missing input; no replacement is represented as the original.
+The original reusable skill is **`build-ultra-crew-guide`**. Its ZIP package is being prepared for transfer. Once supplied and reviewed for publication, it will be included at `skills/build-ultra-crew-guide/SKILL.md` with its supporting resources. The [status note](skills/README.md) tracks this pending addition; no installable skill is bundled yet.
 
 ## Credits and permissions
 
