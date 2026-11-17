@@ -6,7 +6,11 @@ A phone-first ultramarathon companion with a route map, meet-up planning, explic
 
 **[Open the public guide](https://emily-jeff-meriden-crew.whylaura413.chatgpt.site/)** · [Development notes](docs/guide-development.md) · [Adapt it for your crew](docs/reusing-the-guide.md)
 
-![The guide on a phone](docs/phone-public-view.jpg)
+[![Pocket Crew — playful phone walkthrough](demo/preview.jpg)](demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4)
+
+**[▶ Watch the 65-second demo](demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4)** · [Try or edit the interactive demo](demo/README.md)
+
+The walkthrough uses labelled sample states and original family-guide artwork to show the features in action. Download or clone the repo and open `demo/index.html` to try it.
 
 ## What’s here
 
@@ -35,6 +39,7 @@ Use the loopback URL printed by the server (normally port 5173). This launches t
 
 | Folder | Purpose |
 | --- | --- |
+| `demo/` | Annotated video, standalone interactive demo and editable animation source |
 | `guide/` | Authored HTML and alternative poster template |
 | `public/` | Browser scripts, styles, route data and artwork |
 | `app/api/`, `lib/` | Tracker adapters, sharing, access controls and estimates |

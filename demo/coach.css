@@ -1,0 +1,16 @@
+/* Annotation layer belongs to the demo, never to the live guide. */
+.phone-coach{position:absolute;inset:0;z-index:24;pointer-events:none;overflow:hidden}
+.coach-card{position:absolute;left:18px;width:348px;background:#ffe3a1;border:2.5px solid #173c37;border-radius:17px;padding:11px 14px 12px;box-shadow:5px 6px 0 #d97855;transform-origin:50% 50%;color:#173c37}
+.coach-kicker{font-size:8px;line-height:1.2;font-weight:900;letter-spacing:.11em;text-transform:uppercase;margin:0 0 5px}
+.coach-title{display:block;font-size:21px;line-height:1.05;font-weight:900;letter-spacing:-.045em;margin:0;padding-right:21px}
+.coach-copy{font-size:11.5px;line-height:1.35;font-weight:650;margin:6px 0 0!important;max-width:306px}
+.coach-crow{position:absolute;right:9px;top:-17px;width:35px;height:37px;object-fit:contain;transform:rotate(9deg)}
+.coach-step{display:inline-flex;align-items:center;justify-content:center;min-width:20px;height:18px;background:#173c37;color:#fff8e9;border-radius:6px;letter-spacing:0;margin-right:6px;font-size:9px;vertical-align:middle}
+.coach-ink{position:absolute;inset:0;width:390px;height:846px;overflow:visible;pointer-events:none}
+.coach-arrow-back{fill:none;stroke:#fff8e9;stroke-width:8;stroke-linecap:round}
+.coach-arrow{fill:none;stroke:#a83d20;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+.coach-ring{position:absolute;border:3px solid #a83d20;border-radius:13px;box-shadow:0 0 0 3px #fff8e9ed;transform-origin:center;pointer-events:none}
+.coach-sparks{fill:none;stroke:#a83d20;stroke-width:3;stroke-linecap:round}
+/* A tap is a deliberate event, with a longer readable marker. */
+.tap{width:44px;height:44px;margin-left:-22px;margin-top:-22px;border:4px solid #a83d20;background:#ffe3a170;box-shadow:0 0 0 6px #fff8e9c9,0 0 0 9px #a83d2055}
+.tap:after{content:'TAP!';position:absolute;left:-2px;top:-25px;background:#173c37;color:#fff8e9;border:2px solid #fff8e9;border-radius:7px;padding:2px 6px;font-size:9px;line-height:1.2;font-weight:900;letter-spacing:.06em;white-space:nowrap}
