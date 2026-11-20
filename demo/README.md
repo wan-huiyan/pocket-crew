@@ -1,10 +1,10 @@
 # Pocket Crew — a little crew in your pocket
 
-A **65-second annotated walkthrough** of the family guide, with a fixed phone frame, playful crow callouts, curved arrows and clear tap cues.
+Find the next meet-up, see when your runner might arrive, and check for a nearby loo. The **65-second phone walkthrough** uses sample race-day scenarios with captions, crow callouts and tap cues.
 
 [Watch or download the video](renders/Pocket-Crew-Playful-Phone-Demo.mp4)
 
-<a href="renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="preview.jpg" alt="Find a charging stop in the phone demo" width="240"></a>
+<a href="renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="readme-preview.gif" width="640" alt="Short animated preview showing meet-ups, facilities and a milestone celebration on the phone."></a>
 
 ## Try it
 
