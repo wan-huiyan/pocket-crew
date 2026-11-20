@@ -5,9 +5,9 @@
   <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true">Download the full 65-second walkthrough</a>
 </p>
 <p align="center">
-  <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true"><img src="demo/readme-preview.gif" width="640" alt="Animated phone demo. Check the runner’s estimated arrival at the next meet-up, mark the stop met, find nearby facilities, then open Emily’s illustrated 90 km celebration."></a>
+  <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true"><img src="demo/readme-map-preview.gif" width="640" alt="Animated phone demo showing live tracker fixes and shared crew locations by the planned route, runner pace and estimated arrival, and one-tap driving directions to the next meet-up."></a>
 </p>
-<p align="center"><sub>A 16-second loop from the sample race-day walkthrough.</sub></p>
+<p align="center"><sub>A 28-second loop with sample race-day data.</sub></p>
 
 ## “Where are we meeting again?”
 

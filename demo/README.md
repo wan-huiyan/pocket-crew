@@ -4,7 +4,7 @@ Find the next meet-up, see when your runner might arrive, and check for a nearby
 
 [Download the full 65-second walkthrough (MP4)](renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true)
 
-<a href="renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true"><img src="readme-preview.gif" width="640" alt="Short animated preview showing meet-ups, facilities and a milestone celebration on the phone."></a>
+<a href="renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true"><img src="readme-map-preview.gif" width="640" alt="Short animated phone preview showing the planned route, shared locations, pace and ETA, and driving directions to the next meet-up."></a>
 
 ## Try it
 
