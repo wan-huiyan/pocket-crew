@@ -1,28 +1,45 @@
-# Pocket Crew 🐦
+# Pocket Crew 🐦‍⬛
 
-A little home for runners and their very enthusiastic crew.
+**A phone-first guide for ultrarunners and the people bringing the spare socks.**
 
-A phone-first ultramarathon companion with a route map, meet-up planning, explicit phone location sharing, useful stops, milestone surprises and a post-race replay. Built for Emily and Jeff’s Escape from Meriden.
+At 2am, a runner’s latest GPS fix, a route pin and the crew’s latest plan can be spread across three screens. Pocket Crew brings the **next agreed meet-up**, **when the runner might get there**, and **what’s nearby** onto one map.
 
-**[Open the public guide](https://emily-jeff-meriden-crew.whylaura413.chatgpt.site/)** · [Development notes](docs/guide-development.md) · [Adapt it for your crew](docs/reusing-the-guide.md)
+**[Open Emily’s Great Escape](https://pocketcrew.run/)** · **[Watch the 65-second phone walkthrough](demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4)**
 
-<a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="demo/preview.jpg" alt="Pocket Crew — playful phone walkthrough" width="240"></a>
+<a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="demo/preview.jpg" alt="A phone walkthrough of Pocket Crew showing a nearby charging stop" width="240"></a>
 
-**[▶ Watch the 65-second demo](demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4)** · [Try or edit the interactive demo](demo/README.md)
+The walkthrough uses sample race-day scenarios. The live link opens on **After**. Tap **During** to see the race-day view.
 
-The walkthrough uses labelled sample states and original family-guide artwork to show the features in action. Download or clone the repo and open `demo/index.html` to try it.
+## Who it helps
 
-## What’s here
+- **Support crews** can work from the same plan when they’re spread out along the route. The person waiting with the kettle can see the same agreed stop as the runner.
+- **Runners** get a pared-back view with the meeting place and distance to go in large type.
+- **Event organisers** have a concrete example to share with entrants planning their own crew support. Pocket Crew started with Emily and Jeff’s 2026 Escape from Meriden, where participants choose their own routes and crews arrange their own meet-ups. [Event rules](https://www.escapefrommeriden.co.uk/)
 
-- **Runner view:** a readable next meet-up, route progress and clearly labelled tracker reports.
-- **Crew view:** shared plans and checkpoints, nearby toilets, cafés, parking and charging.
-- **Location controls:** explicit permission and separate publishing capabilities; opening the guide never starts GPS.
-- **Race-day extras:** an illustrated intro, crow celebrations, offline shell and route saving.
-- **After the finish:** a recorded race replay and standings, with sources and estimation limits.
+## A race in three stages
 
-The repository preserves the existing artwork, copy and both guide layouts. Race information is the November 2026 example; facility hours and historical pins need fresh checks for another event. Live locations, map tiles and new content need connectivity.
+| Stage | What you’ll find in the Meriden example |
+| --- | --- |
+| [**Before**](https://pocketcrew.run/before) | The planned route, crew meet-up options, and the kit and essentials checklist. |
+| [**During**](https://pocketcrew.run/crew) | See when the tracker last reported and look up nearby loos, cafés, parking and charging. Crew members with access can mark a stop met or skipped so the plan moves on. Phone location sharing starts when someone turns it on. |
+| [**After**](https://pocketcrew.run/) | Emily’s saved route plays out on an illustrated map, with crew photos and celebration posters alongside it. The archived podium and category rankings are below the replay. |
 
-## Run locally
+## For the event organiser
+
+**Share [the Meriden example](https://pocketcrew.run/) in your pre-race notes for entrants bringing a crew.** It shows how one family used the event tracker alongside a plan for their own stops.
+
+To adapt it for another race, start with that crew’s planned route, suitable meeting places and an event-approved tracker source. Recheck access and opening hours for facilities, give the crew its own sharing setup, and replace the family artwork with media you have permission to use. [Adapt the guide for another crew](docs/reusing-the-guide.md)
+
+Arrival windows are estimates. The replay uses saved GPS and crew check-ins, and the podium uses an archived tracker snapshot. Meriden’s rankings measure crow-flight distance from the start. The replay also shows distance along the sampled GPS path.
+
+## Build or adapt a guide
+
+- **[Install the Codex skill](skills/README.md)**. `build-ultra-crew-guide` v1.0.0 covers event setup, race-day support and archiving.
+- **[Try the interactive demo](demo/README.md)**. Download or clone the repository and open `demo/index.html` in a browser to try the sample states.
+- **[Read the development notes](docs/guide-development.md)** for the application, offline saving and the alternative poster layout.
+
+<details>
+<summary>Run locally and find the source</summary>
 
 Requires Node.js 22.13 or later.
 
@@ -33,36 +50,17 @@ npm run install:ci
 npm run dev
 ```
 
-Use the loopback URL printed by the server (normally port 5173). This launches the application locally; shared crew features also require a local D1 database and your own runtime configuration. See [setup and reuse](docs/reusing-the-guide.md). The repository includes a lockfile and the original verification sources; this publication does not establish a new build or device-test result.
+Open the local URL printed by the dev server. Shared crew features require a local D1 database and crew configuration. The public repository provides the starter source and demo. The hosted Meriden example shows the finished family guide. [Setup and reuse notes](docs/reusing-the-guide.md)
 
-## Source map
-
-| Folder | Purpose |
+| Folder | What’s inside |
 | --- | --- |
-| `demo/` | Annotated video, standalone interactive demo and editable animation source |
-| `guide/` | Authored HTML and alternative poster template |
-| `public/` | Browser scripts, styles, route data and artwork |
-| `app/api/`, `lib/` | Tracker adapters, sharing, access controls and estimates |
-| `db/`, `drizzle/` | D1 schema and migrations |
-| `scripts/` | Build helpers and archive/replay tools |
-| `tests/` | Existing automated verification sources |
-| `skills/` | Installable `build-ultra-crew-guide` skill and installation guide |
-| `archive/` | Historical race inputs and provenance; no live database export |
+| `guide/`, `public/` | Guide templates, browser code, route data and artwork |
+| `app/api/`, `lib/`, `db/`, `drizzle/` | Tracker adapters, crew sharing, estimates and database schema |
+| `demo/`, `skills/` | Editable walkthrough and installable guide-building skill |
+| `scripts/`, `tests/`, `archive/` | Build tools, verification sources and historical race inputs |
 
-## The skill behind the guide
-
-**[Install `build-ultra-crew-guide`](skills/README.md)** to plan, adapt, operate or archive your own Pocket Crew-style event guide. Version **1.0.0** includes the original eight reference guides, a read-only source auditor and Codex metadata. The skill installs separately from the application and its artwork.
-
-In Codex, ask:
-
-```text
-Use $skill-installer to install https://github.com/wan-huiyan/pocket-crew/tree/skill-v1.0.0/skills/build-ultra-crew-guide
-```
-
-Then use `$build-ultra-crew-guide` with your event details.
+</details>
 
 ## Credits and permissions
 
-This is a public source repository. No blanket reuse license has been assigned. Personal portraits, illustrations, event material and third-party race/map data retain their respective rights; check permissions before republishing them. Existing third-party notices remain with the bundled Leaflet and other vendor files. Map and routing attribution remains in the application.
-
-The public guide is a planning aid. GPS freshness, approximate arrival times and historical route data are labelled in the application; use the official event information for race decisions.
+Made for Emily, Jeff and their Meriden crew. The source repository is public and has no blanket reuse licence. Family artwork, portraits and third-party event or map data retain their respective rights. The guide shows map and routing attribution, and bundled vendor notices remain with their files. Please check permissions before republishing the example materials.
