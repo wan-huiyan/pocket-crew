@@ -2,10 +2,10 @@
 <p align="center"><strong>A phone-first guide for ultrarunners and the crew bringing the spare socks.</strong></p>
 <p align="center">
   <a href="https://pocketcrew.run/"><strong>Open the Meriden guide</strong></a> ·
-  <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4">Watch the full 65-second walkthrough</a>
+  <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true">Download the full 65-second walkthrough</a>
 </p>
 <p align="center">
-  <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4"><img src="demo/readme-preview.gif" width="640" alt="Animated phone demo. Check the runner’s estimated arrival at the next meet-up, mark the stop met, find nearby facilities, then open Emily’s illustrated 90 km celebration."></a>
+  <a href="demo/renders/Pocket-Crew-Playful-Phone-Demo.mp4?raw=true"><img src="demo/readme-preview.gif" width="640" alt="Animated phone demo. Check the runner’s estimated arrival at the next meet-up, mark the stop met, find nearby facilities, then open Emily’s illustrated 90 km celebration."></a>
 </p>
 <p align="center"><sub>A 16-second loop from the sample race-day walkthrough.</sub></p>
 
